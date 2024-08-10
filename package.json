@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "server": "node server.js",
+    "iot": "node esp32-simulator.js",
+    "mobile": "node mobile-app-mock.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

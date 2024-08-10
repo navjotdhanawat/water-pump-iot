@@ -1,0 +1,120 @@
+[2024-08-10T17:44:40.919Z] MQTT Mock Server running on port
+[2024-08-10T17:44:44.451Z] Client connected:
+[2024-08-10T17:44:44.452Z] Received message:
+[2024-08-10T17:44:44.465Z] Connected to MQTT broker
+[2024-08-10T17:44:44.470Z] Received message:
+[2024-08-10T17:44:44.471Z] Subscribed to water-pump/control
+[2024-08-10T17:44:46.606Z] Client connected:
+[2024-08-10T17:44:46.606Z] Received message:
+[2024-08-10T17:44:46.608Z] Connected to MQTT broker
+[2024-08-10T17:44:46.610Z] Received message:
+[2024-08-10T17:44:46.611Z] Received message:
+[2024-08-10T17:44:46.611Z] Received message:
+[2024-08-10T17:44:46.611Z] Subscribed to sensor/data
+[2024-08-10T17:44:46.611Z] Subscribed to all alert topics
+[2024-08-10T17:44:46.611Z] Subscribed to water-pump/status
+[2024-08-10T17:45:40.103Z] Sent command: ON
+[2024-08-10T17:45:40.117Z] Received message:
+[2024-08-10T17:45:40.118Z] Received message:
+[2024-08-10T17:45:40.119Z] Received on water-pump/status: Pump control command received
+[2024-08-10T17:45:40.119Z] Received message on water-pump/control: ON
+[2024-08-10T17:45:40.120Z] Simulated action: Water pump turned ON
+[2024-08-10T17:45:40.122Z] Received message:
+[2024-08-10T17:45:40.122Z] Received on water-pump/status: Pump is ON
+[2024-08-10T17:45:40.919Z] Received message:
+[2024-08-10T17:46:40.921Z] Received message:
+[2024-08-10T17:47:40.921Z] Received message:
+[2024-08-10T17:47:42.616Z] Client disconnected:
+[2024-08-10T17:47:42.616Z] Received message:
+[2024-08-10T17:47:42.617Z] Received message:
+[2024-08-10T17:47:44.858Z] Client disconnected:
+[2024-08-10T17:47:44.859Z] Received message:
+[2024-08-10T17:47:44.859Z] Received message:
+[2024-08-10T17:47:58.755Z] MQTT Mock Server running on port: 1883
+[2024-08-10T17:49:17.285Z] MQTT Mock Server running on port: 1883
+[2024-08-10T17:49:24.543Z] Client connected: mqttjs_fbc75ffe
+[2024-08-10T17:49:24.543Z] Received message: mqttjs_fbc75ffe
+[2024-08-10T17:49:24.555Z] Connected to MQTT broker
+[2024-08-10T17:49:24.558Z] Received message: {"clientId":"mqttjs_fbc75ffe","subs":[{"topic":"water-pump/control","qos":0}]}
+[2024-08-10T17:49:24.559Z] Subscribed to water-pump/control
+[2024-08-10T17:49:29.207Z] Client connected: mqttjs_e77b608d
+[2024-08-10T17:49:29.207Z] Received message: mqttjs_e77b608d
+[2024-08-10T17:49:29.209Z] Connected to MQTT broker
+[2024-08-10T17:49:29.212Z] Received message: {"clientId":"mqttjs_e77b608d","subs":[{"topic":"sensor/data","qos":0}]}
+[2024-08-10T17:49:29.212Z] Received message: {"clientId":"mqttjs_e77b608d","subs":[{"topic":"water-pump/status","qos":0}]}
+[2024-08-10T17:49:29.212Z] Received message: {"clientId":"mqttjs_e77b608d","subs":[{"topic":"alerts/#","qos":0}]}
+[2024-08-10T17:49:29.212Z] Subscribed to sensor/data
+[2024-08-10T17:49:29.212Z] Subscribed to water-pump/status
+[2024-08-10T17:49:29.212Z] Subscribed to all alert topics
+[2024-08-10T17:49:41.540Z] Sent command: ON
+[2024-08-10T17:49:41.545Z] Received message: ON
+[2024-08-10T17:49:41.546Z] Received message: Pump control command received
+[2024-08-10T17:49:41.547Z] Received on water-pump/status: Pump control command received
+[2024-08-10T17:49:41.546Z] Received message on water-pump/control: ON
+[2024-08-10T17:49:41.546Z] Simulated action: Water pump turned ON
+[2024-08-10T17:49:41.548Z] Received message: Pump is ON
+[2024-08-10T17:49:41.548Z] Received on water-pump/status: Pump is ON
+[2024-08-10T17:50:17.286Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:50:48.899Z] Invalid command. Please enter "ON" or "OFF".
+[2024-08-10T17:50:49.091Z] Invalid command. Please enter "ON" or "OFF".
+[2024-08-10T17:50:49.254Z] Invalid command. Please enter "ON" or "OFF".
+[2024-08-10T17:50:52.857Z] Sent command: ON
+[2024-08-10T17:50:52.859Z] Received message: ON
+[2024-08-10T17:50:52.860Z] Received message: Pump control command received
+[2024-08-10T17:50:52.861Z] Received on water-pump/status: Pump control command received
+[2024-08-10T17:50:52.859Z] Received message on water-pump/control: ON
+[2024-08-10T17:50:52.862Z] Simulated action: Water pump turned ON
+[2024-08-10T17:50:52.864Z] Received message: Pump is ON
+[2024-08-10T17:50:52.864Z] Received on water-pump/status: Pump is ON
+[2024-08-10T17:51:01.118Z] Sent command: ON
+[2024-08-10T17:51:01.119Z] Received message: ON
+[2024-08-10T17:51:01.120Z] Received on water-pump/status: Pump control command received
+[2024-08-10T17:51:01.120Z] Received message on water-pump/control: ON
+[2024-08-10T17:51:01.120Z] Simulated action: Water pump turned ON
+[2024-08-10T17:51:01.120Z] Received message: Pump control command received
+[2024-08-10T17:51:01.121Z] Received message: Pump is ON
+[2024-08-10T17:51:01.122Z] Received on water-pump/status: Pump is ON
+[2024-08-10T17:51:09.128Z] Sent command: OFF
+[2024-08-10T17:51:09.130Z] Received message: OFF
+[2024-08-10T17:51:09.133Z] Received message: Pump control command received
+[2024-08-10T17:51:09.131Z] Received message on water-pump/control: OFF
+[2024-08-10T17:51:09.132Z] Simulated action: Water pump turned OFF
+[2024-08-10T17:51:09.133Z] Received message: Pump is OFF
+[2024-08-10T17:51:09.134Z] Received on water-pump/status: Pump control command received
+[2024-08-10T17:51:09.134Z] Received on water-pump/status: Pump is OFF
+[2024-08-10T17:51:17.287Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:52:17.290Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:53:17.296Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:54:17.298Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:55:17.299Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:56:17.300Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:57:17.300Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:58:17.309Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T17:59:17.302Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:00:17.302Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:01:17.301Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:02:17.304Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:03:17.311Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:04:17.305Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:05:17.305Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:06:17.306Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:07:17.309Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:08:17.313Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:09:17.314Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:10:17.316Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:11:17.315Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:12:17.316Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:13:17.316Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:14:17.317Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:15:17.328Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:16:17.338Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:17:17.325Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:18:17.327Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:19:17.328Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:20:17.329Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:21:17.329Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:22:17.331Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-08-10T18:22:49.444Z] Client disconnected: mqttjs_e77b608d
+[2024-08-10T18:22:49.445Z] Received message: mqttjs_e77b608d
+[2024-08-10T18:22:49.445Z] Received message: {"clientId":"mqttjs_e77b608d","subs":["sensor/data","alerts/#","water-pump/status"]}
+[2024-08-10T18:23:17.333Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14

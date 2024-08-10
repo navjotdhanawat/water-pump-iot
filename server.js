@@ -1,24 +1,26 @@
 const aedes = require("aedes")();
 const server = require("net").createServer(aedes.handle);
+const logger = require("./logger"); // Import the logger utility
+
 const port = 1883;
 
 server.listen(port, function () {
-  console.log("MQTT Mock Server running on port", port);
+  logger.log(`MQTT Mock Server running on port: ${port}`);
 });
 
 // Event: Client connected
 aedes.on("client", function (client) {
-  console.log("Client connected:", client.id);
+  logger.log(`Client connected: ${client.id}`);
 });
 
 // Event: Client disconnected
 aedes.on("clientDisconnect", function (client) {
-  console.log("Client disconnected:", client.id);
+  logger.log(`Client disconnected: ${client.id}`);
 });
 
 // Event: Message received
 aedes.on("publish", function (packet, client) {
-  console.log("Received message:", packet.payload.toString());
+  logger.log(`Received message: ${packet.payload.toString()}`);
 
   // Example: Forward messages to a specific topic
   if (packet.topic === "water-pump/control") {
