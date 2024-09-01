@@ -1,120 +1,872 @@
-[2024-08-10T17:44:40.919Z] MQTT Mock Server running on port
-[2024-08-10T17:44:44.451Z] Client connected:
-[2024-08-10T17:44:44.452Z] Received message:
-[2024-08-10T17:44:44.465Z] Connected to MQTT broker
-[2024-08-10T17:44:44.470Z] Received message:
-[2024-08-10T17:44:44.471Z] Subscribed to water-pump/control
-[2024-08-10T17:44:46.606Z] Client connected:
-[2024-08-10T17:44:46.606Z] Received message:
-[2024-08-10T17:44:46.608Z] Connected to MQTT broker
-[2024-08-10T17:44:46.610Z] Received message:
-[2024-08-10T17:44:46.611Z] Received message:
-[2024-08-10T17:44:46.611Z] Received message:
-[2024-08-10T17:44:46.611Z] Subscribed to sensor/data
-[2024-08-10T17:44:46.611Z] Subscribed to all alert topics
-[2024-08-10T17:44:46.611Z] Subscribed to water-pump/status
-[2024-08-10T17:45:40.103Z] Sent command: ON
-[2024-08-10T17:45:40.117Z] Received message:
-[2024-08-10T17:45:40.118Z] Received message:
-[2024-08-10T17:45:40.119Z] Received on water-pump/status: Pump control command received
-[2024-08-10T17:45:40.119Z] Received message on water-pump/control: ON
-[2024-08-10T17:45:40.120Z] Simulated action: Water pump turned ON
-[2024-08-10T17:45:40.122Z] Received message:
-[2024-08-10T17:45:40.122Z] Received on water-pump/status: Pump is ON
-[2024-08-10T17:45:40.919Z] Received message:
-[2024-08-10T17:46:40.921Z] Received message:
-[2024-08-10T17:47:40.921Z] Received message:
-[2024-08-10T17:47:42.616Z] Client disconnected:
-[2024-08-10T17:47:42.616Z] Received message:
-[2024-08-10T17:47:42.617Z] Received message:
-[2024-08-10T17:47:44.858Z] Client disconnected:
-[2024-08-10T17:47:44.859Z] Received message:
-[2024-08-10T17:47:44.859Z] Received message:
-[2024-08-10T17:47:58.755Z] MQTT Mock Server running on port: 1883
-[2024-08-10T17:49:17.285Z] MQTT Mock Server running on port: 1883
-[2024-08-10T17:49:24.543Z] Client connected: mqttjs_fbc75ffe
-[2024-08-10T17:49:24.543Z] Received message: mqttjs_fbc75ffe
-[2024-08-10T17:49:24.555Z] Connected to MQTT broker
-[2024-08-10T17:49:24.558Z] Received message: {"clientId":"mqttjs_fbc75ffe","subs":[{"topic":"water-pump/control","qos":0}]}
-[2024-08-10T17:49:24.559Z] Subscribed to water-pump/control
-[2024-08-10T17:49:29.207Z] Client connected: mqttjs_e77b608d
-[2024-08-10T17:49:29.207Z] Received message: mqttjs_e77b608d
-[2024-08-10T17:49:29.209Z] Connected to MQTT broker
-[2024-08-10T17:49:29.212Z] Received message: {"clientId":"mqttjs_e77b608d","subs":[{"topic":"sensor/data","qos":0}]}
-[2024-08-10T17:49:29.212Z] Received message: {"clientId":"mqttjs_e77b608d","subs":[{"topic":"water-pump/status","qos":0}]}
-[2024-08-10T17:49:29.212Z] Received message: {"clientId":"mqttjs_e77b608d","subs":[{"topic":"alerts/#","qos":0}]}
-[2024-08-10T17:49:29.212Z] Subscribed to sensor/data
-[2024-08-10T17:49:29.212Z] Subscribed to water-pump/status
-[2024-08-10T17:49:29.212Z] Subscribed to all alert topics
-[2024-08-10T17:49:41.540Z] Sent command: ON
-[2024-08-10T17:49:41.545Z] Received message: ON
-[2024-08-10T17:49:41.546Z] Received message: Pump control command received
-[2024-08-10T17:49:41.547Z] Received on water-pump/status: Pump control command received
-[2024-08-10T17:49:41.546Z] Received message on water-pump/control: ON
-[2024-08-10T17:49:41.546Z] Simulated action: Water pump turned ON
-[2024-08-10T17:49:41.548Z] Received message: Pump is ON
-[2024-08-10T17:49:41.548Z] Received on water-pump/status: Pump is ON
-[2024-08-10T17:50:17.286Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:50:48.899Z] Invalid command. Please enter "ON" or "OFF".
-[2024-08-10T17:50:49.091Z] Invalid command. Please enter "ON" or "OFF".
-[2024-08-10T17:50:49.254Z] Invalid command. Please enter "ON" or "OFF".
-[2024-08-10T17:50:52.857Z] Sent command: ON
-[2024-08-10T17:50:52.859Z] Received message: ON
-[2024-08-10T17:50:52.860Z] Received message: Pump control command received
-[2024-08-10T17:50:52.861Z] Received on water-pump/status: Pump control command received
-[2024-08-10T17:50:52.859Z] Received message on water-pump/control: ON
-[2024-08-10T17:50:52.862Z] Simulated action: Water pump turned ON
-[2024-08-10T17:50:52.864Z] Received message: Pump is ON
-[2024-08-10T17:50:52.864Z] Received on water-pump/status: Pump is ON
-[2024-08-10T17:51:01.118Z] Sent command: ON
-[2024-08-10T17:51:01.119Z] Received message: ON
-[2024-08-10T17:51:01.120Z] Received on water-pump/status: Pump control command received
-[2024-08-10T17:51:01.120Z] Received message on water-pump/control: ON
-[2024-08-10T17:51:01.120Z] Simulated action: Water pump turned ON
-[2024-08-10T17:51:01.120Z] Received message: Pump control command received
-[2024-08-10T17:51:01.121Z] Received message: Pump is ON
-[2024-08-10T17:51:01.122Z] Received on water-pump/status: Pump is ON
-[2024-08-10T17:51:09.128Z] Sent command: OFF
-[2024-08-10T17:51:09.130Z] Received message: OFF
-[2024-08-10T17:51:09.133Z] Received message: Pump control command received
-[2024-08-10T17:51:09.131Z] Received message on water-pump/control: OFF
-[2024-08-10T17:51:09.132Z] Simulated action: Water pump turned OFF
-[2024-08-10T17:51:09.133Z] Received message: Pump is OFF
-[2024-08-10T17:51:09.134Z] Received on water-pump/status: Pump control command received
-[2024-08-10T17:51:09.134Z] Received on water-pump/status: Pump is OFF
-[2024-08-10T17:51:17.287Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:52:17.290Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:53:17.296Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:54:17.298Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:55:17.299Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:56:17.300Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:57:17.300Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:58:17.309Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T17:59:17.302Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:00:17.302Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:01:17.301Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:02:17.304Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:03:17.311Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:04:17.305Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:05:17.305Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:06:17.306Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:07:17.309Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:08:17.313Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:09:17.314Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:10:17.316Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:11:17.315Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:12:17.316Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:13:17.316Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:14:17.317Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:15:17.328Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:16:17.338Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:17:17.325Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:18:17.327Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:19:17.328Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:20:17.329Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:21:17.329Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:22:17.331Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
-[2024-08-10T18:22:49.444Z] Client disconnected: mqttjs_e77b608d
-[2024-08-10T18:22:49.445Z] Received message: mqttjs_e77b608d
-[2024-08-10T18:22:49.445Z] Received message: {"clientId":"mqttjs_e77b608d","subs":["sensor/data","alerts/#","water-pump/status"]}
-[2024-08-10T18:23:17.333Z] Received message: a760768b-7f92-44d5-ab1c-7775a056bd14
+[2024-09-01T00:27:10.081Z] Connected to MQTT broker
+[2024-09-01T00:27:10.088Z] Subscribed to sensor/data
+[2024-09-01T00:27:10.088Z] Subscribed to water-pump/status
+[2024-09-01T00:27:10.088Z] Subscribed to all alert topics
+[2024-09-01T00:27:27.515Z] Connected to MQTT broker
+[2024-09-01T00:27:27.523Z] Subscribed to sensor/data
+[2024-09-01T00:27:27.523Z] Subscribed to water-pump/status
+[2024-09-01T00:27:27.523Z] Subscribed to all alert topics
+[2024-09-01T00:27:37.903Z] Invalid command. Please enter "ON" or "OFF".
+[2024-09-01T00:27:41.531Z] Sent command: ON
+[2024-09-01T00:27:52.165Z] Sent command: OFF
+[2024-09-01T00:29:08.467Z] Sent command: ON
+[2024-09-01T00:29:19.287Z] Sent command: OFF
+[2024-09-01T00:29:21.938Z] Sent command: ON
+[2024-09-01T00:37:39.808Z] Connected to MQTT broker
+[2024-09-01T00:37:39.818Z] Subscribed to water-pump/control
+[2024-09-01T00:37:48.929Z] Sent command: ON
+[2024-09-01T00:37:48.933Z] Received message on water-pump/control: ON
+[2024-09-01T00:37:48.934Z] Simulated action: Water pump turned ON
+[2024-09-01T00:37:48.937Z] Received on water-pump/status: Pump is ON
+[2024-09-01T00:38:15.185Z] Sent command: OFF
+[2024-09-01T00:38:15.189Z] Received message on water-pump/control: OFF
+[2024-09-01T00:38:15.190Z] Simulated action: Water pump turned OFF
+[2024-09-01T00:38:15.191Z] Received on water-pump/status: Pump is OFF
+[2024-09-01T00:38:17.304Z] Invalid command. Please enter "ON" or "OFF".
+[2024-09-01T00:38:19.031Z] Invalid command. Please enter "ON" or "OFF".
+[2024-09-01T00:39:52.656Z] Connected to MQTT broker
+[2024-09-01T00:39:52.659Z] Subscribed to water-pump/control
+[2024-09-01T00:40:02.663Z] Published sensor data:
+[2024-09-01T00:40:02.668Z] Received on sensor/data: {"temperature":27.94866463635959,"pressure":1138.3810824673856,"voltage":12.080090898506638,"current":3.5615088421455376}
+[2024-09-01T00:40:05.520Z] Sent command: ON
+[2024-09-01T00:40:05.523Z] Received message on water-pump/control: ON
+[2024-09-01T00:40:05.524Z] Simulated action: Water pump turned ON
+[2024-09-01T00:40:05.525Z] Received on water-pump/status: Pump is ON
+[2024-09-01T00:40:12.660Z] Published sensor data:
+[2024-09-01T00:40:12.663Z] Received on sensor/data: {"temperature":24.528395518945484,"pressure":1030.965164773877,"voltage":12.146524720733085,"current":9.094580732048863}
+[2024-09-01T00:40:22.664Z] Published sensor data:
+[2024-09-01T00:40:22.669Z] Received on sensor/data: {"temperature":13.285200952626207,"pressure":1031.7877558362698,"voltage":12.491262553541567,"current":9.66958936998492}
+[2024-09-01T00:40:32.668Z] Published sensor data:
+[2024-09-01T00:40:32.672Z] Received on sensor/data: {"temperature":31.94098174733651,"pressure":925.1072152772358,"voltage":11.834714692890445,"current":3.331424958621678}
+[2024-09-01T00:40:42.672Z] Published sensor data:
+[2024-09-01T00:40:42.675Z] Received on sensor/data: {"temperature":10.86530224623153,"pressure":1055.757801271386,"voltage":11.23977316308825,"current":2.967933304478636}
+[2024-09-01T00:40:52.672Z] Published sensor data:
+[2024-09-01T00:40:52.676Z] Received on sensor/data: {"temperature":11.690614424363348,"pressure":1139.9000857594197,"voltage":12.224058809311346,"current":8.30801342145383}
+[2024-09-01T00:41:02.673Z] Published sensor data:
+[2024-09-01T00:41:02.677Z] Received on sensor/data: {"temperature":9.9777560431675,"pressure":1030.1869752690845,"voltage":12.090870456349261,"current":4.660046857159383}
+[2024-09-01T00:41:12.675Z] Published sensor data:
+[2024-09-01T00:41:12.680Z] Received on sensor/data: {"temperature":55.901925826976246,"pressure":1155.0245139156539,"voltage":11.719868119570132,"current":5.307349137058274}
+[2024-09-01T00:41:22.677Z] Published sensor data:
+[2024-09-01T00:41:22.681Z] Received on sensor/data: {"temperature":8.767351009999736,"pressure":1063.345531728616,"voltage":12.128214780054748,"current":7.704830834724157}
+[2024-09-01T00:41:32.679Z] Published sensor data:
+[2024-09-01T00:41:32.683Z] Received on sensor/data: {"temperature":45.36296795748251,"pressure":1057.7658165601692,"voltage":11.716699709544052,"current":1.6027722785465448}
+[2024-09-01T00:41:42.679Z] Published sensor data:
+[2024-09-01T00:41:42.683Z] Received on sensor/data: {"temperature":21.98002649481303,"pressure":978.0488184535346,"voltage":11.086280586549158,"current":4.375206512101082}
+[2024-09-01T00:41:48.095Z] Sent command: ON
+[2024-09-01T00:41:48.098Z] Received message on water-pump/control: ON
+[2024-09-01T00:41:48.099Z] Simulated action: Water pump turned ON
+[2024-09-01T00:41:48.101Z] Received on water-pump/status: Pump is ON
+[2024-09-01T00:41:52.679Z] Published sensor data:
+[2024-09-01T00:41:52.683Z] Received on sensor/data: {"temperature":49.06592769555082,"pressure":1135.0838348505176,"voltage":11.61983104163301,"current":7.633469562150044}
+[2024-09-01T00:42:02.679Z] Published sensor data:
+[2024-09-01T00:42:02.687Z] Received on sensor/data: {"temperature":7.87332965040598,"pressure":1165.153068554993,"voltage":12.247401219792481,"current":4.834293487406698}
+[2024-09-01T00:42:12.680Z] Published sensor data:
+[2024-09-01T00:42:12.684Z] Received on sensor/data: {"temperature":36.91806707681684,"pressure":1063.2498761793918,"voltage":11.024699051801726,"current":9.593840217623018}
+[2024-09-01T00:42:21.205Z] Sent command: OFF
+[2024-09-01T00:42:21.209Z] Received message on water-pump/control: OFF
+[2024-09-01T00:42:21.209Z] Simulated action: Water pump turned OFF
+[2024-09-01T00:42:21.210Z] Received on water-pump/status: Pump is OFF
+[2024-09-01T00:42:22.682Z] Published sensor data:
+[2024-09-01T00:42:22.689Z] Received on sensor/data: {"temperature":41.16805724232544,"pressure":1060.2306187344705,"voltage":11.750580542474871,"current":3.632001077514686}
+[2024-09-01T00:42:32.269Z] Sent command: OFF
+[2024-09-01T00:42:32.274Z] Received message on water-pump/control: OFF
+[2024-09-01T00:42:32.274Z] Simulated action: Water pump turned OFF
+[2024-09-01T00:42:32.276Z] Received on water-pump/status: Pump is OFF
+[2024-09-01T00:42:32.682Z] Published sensor data:
+[2024-09-01T00:42:32.687Z] Received on sensor/data: {"temperature":11.011728975140684,"pressure":1092.8858359715507,"voltage":11.320061922353554,"current":1.1589357344086082}
+[2024-09-01T00:42:42.686Z] Published sensor data:
+[2024-09-01T00:42:42.704Z] Received on sensor/data: {"temperature":56.85482107685787,"pressure":993.4733976430988,"voltage":12.144049851601679,"current":0.5431300466611888}
+[2024-09-01T00:42:52.689Z] Published sensor data:
+[2024-09-01T00:42:52.694Z] Received on sensor/data: {"temperature":16.138856346949183,"pressure":935.6870815573892,"voltage":11.813901064428089,"current":1.5343316822549014}
+[2024-09-01T00:43:02.691Z] Published sensor data:
+[2024-09-01T00:43:02.716Z] Received on sensor/data: {"temperature":32.622621024919496,"pressure":1090.289533935148,"voltage":12.016287307840223,"current":6.286148652430363}
+[2024-09-01T00:43:12.692Z] Published sensor data:
+[2024-09-01T00:43:12.697Z] Received on sensor/data: {"temperature":12.306144265076663,"pressure":948.1792928574389,"voltage":12.445377884682289,"current":2.4506019104822863}
+[2024-09-01T00:43:22.695Z] Published sensor data:
+[2024-09-01T00:43:22.707Z] Received on sensor/data: {"temperature":50.95532017204981,"pressure":1095.5972422421914,"voltage":11.945963410543044,"current":4.4197636411311825}
+[2024-09-01T00:43:32.694Z] Published sensor data:
+[2024-09-01T00:43:32.699Z] Received on sensor/data: {"temperature":10.582015315412718,"pressure":1012.1655899206164,"voltage":11.515945813337186,"current":2.862108121588065}
+[2024-09-01T00:43:42.695Z] Published sensor data:
+[2024-09-01T00:43:42.698Z] Received on sensor/data: {"temperature":59.473465784857765,"pressure":971.3352274273548,"voltage":11.4457267317381,"current":5.082880197194555}
+[2024-09-01T00:43:52.696Z] Published sensor data:
+[2024-09-01T00:43:52.701Z] Received on sensor/data: {"temperature":55.292255611089416,"pressure":925.098055236427,"voltage":11.28342470094089,"current":3.336132095764488}
+[2024-09-01T00:44:02.695Z] Published sensor data:
+[2024-09-01T00:44:02.701Z] Received on sensor/data: {"temperature":28.403675808134516,"pressure":983.5442481699647,"voltage":12.227959271202595,"current":2.4042065969229753}
+[2024-09-01T00:44:12.696Z] Published sensor data:
+[2024-09-01T00:44:12.704Z] Received on sensor/data: {"temperature":22.624234061144374,"pressure":951.7182921502001,"voltage":11.739653825808093,"current":3.3849752170158065}
+[2024-09-01T00:44:22.698Z] Published sensor data:
+[2024-09-01T00:44:22.702Z] Received on sensor/data: {"temperature":32.71983759852741,"pressure":1084.45037455944,"voltage":11.924882085333211,"current":0.9276593803038047}
+[2024-09-01T00:44:32.698Z] Published sensor data:
+[2024-09-01T00:44:32.713Z] Received on sensor/data: {"temperature":20.612237674257926,"pressure":1072.04231515337,"voltage":11.31207876220826,"current":8.117424735170527}
+[2024-09-01T00:44:42.700Z] Published sensor data:
+[2024-09-01T00:44:42.705Z] Received on sensor/data: {"temperature":47.46857506783812,"pressure":1058.4980446566206,"voltage":12.007903325559873,"current":9.64056714233983}
+[2024-09-01T00:44:52.700Z] Published sensor data:
+[2024-09-01T00:44:52.708Z] Received on sensor/data: {"temperature":27.017440562511574,"pressure":1016.0600406692959,"voltage":12.163618761043416,"current":2.086266954250513}
+[2024-09-01T00:45:02.701Z] Published sensor data:
+[2024-09-01T00:45:02.705Z] Received on sensor/data: {"temperature":45.57988727069015,"pressure":1154.4878237827886,"voltage":12.127838250507939,"current":5.0523943827082185}
+[2024-09-01T00:45:12.701Z] Published sensor data:
+[2024-09-01T00:45:12.704Z] Received on sensor/data: {"temperature":58.03893262402787,"pressure":1101.144785644607,"voltage":12.007578359488667,"current":8.072129577454723}
+[2024-09-01T00:45:22.702Z] Published sensor data:
+[2024-09-01T00:45:22.708Z] Received on sensor/data: {"temperature":41.22674753855351,"pressure":1009.2791401990374,"voltage":12.330800370376648,"current":5.846721138562366}
+[2024-09-01T00:45:32.703Z] Published sensor data:
+[2024-09-01T00:45:32.706Z] Received on sensor/data: {"temperature":7.292192180441136,"pressure":932.4668712024904,"voltage":12.064607496849009,"current":4.718901919123564}
+[2024-09-01T00:45:42.703Z] Published sensor data:
+[2024-09-01T00:45:42.713Z] Received on sensor/data: {"temperature":46.24408240355794,"pressure":936.6166535821491,"voltage":11.874943949456643,"current":8.286984405862402}
+[2024-09-01T00:45:52.705Z] Published sensor data:
+[2024-09-01T00:45:52.728Z] Received on sensor/data: {"temperature":36.39992301457623,"pressure":1043.060203837357,"voltage":11.319676197176673,"current":5.41555735396088}
+[2024-09-01T00:46:02.706Z] Published sensor data:
+[2024-09-01T00:46:02.713Z] Received on sensor/data: {"temperature":31.354648191003733,"pressure":1084.4306741019154,"voltage":11.515098515992975,"current":6.281557578026041}
+[2024-09-01T00:46:12.707Z] Published sensor data:
+[2024-09-01T00:46:12.711Z] Received on sensor/data: {"temperature":53.69816418048655,"pressure":1031.7395637824807,"voltage":11.849444152475881,"current":6.079273797575622}
+[2024-09-01T00:46:22.708Z] Published sensor data:
+[2024-09-01T00:46:22.713Z] Received on sensor/data: {"temperature":25.45230366437124,"pressure":1129.1359315275088,"voltage":11.993298031288347,"current":8.62588133111772}
+[2024-09-01T00:46:32.708Z] Published sensor data:
+[2024-09-01T00:46:32.714Z] Received on sensor/data: {"temperature":40.59616206836205,"pressure":1010.5022604407241,"voltage":12.146601299029212,"current":1.8946155039261914}
+[2024-09-01T00:46:42.712Z] Published sensor data:
+[2024-09-01T00:47:29.388Z] Connected to MQTT broker
+[2024-09-01T00:47:29.392Z] Subscribed to sensor/data
+[2024-09-01T00:47:29.392Z] Subscribed to water-pump/status
+[2024-09-01T00:47:29.392Z] Subscribed to all alert topics
+[2024-09-01T00:47:33.053Z] Connected to MQTT broker
+[2024-09-01T00:47:33.057Z] Subscribed to water-pump/control
+[2024-09-01T00:47:37.501Z] Sent command: ON
+[2024-09-01T00:47:37.508Z] Received message on water-pump/control: ON
+[2024-09-01T00:47:37.508Z] Simulated action: Water pump turned ON
+[2024-09-01T00:47:37.511Z] Received on water-pump/status: Pump is ON
+[2024-09-01T00:47:43.062Z] Published sensor data:
+[2024-09-01T00:47:43.065Z] Received on sensor/data: {"temperature":41.93512249777401,"pressure":1119.4029825268235,"voltage":11.918378272397671,"current":3.0300836734426317}
+[2024-09-01T00:47:53.066Z] Published sensor data:
+[2024-09-01T00:47:53.074Z] Received on sensor/data: {"temperature":53.470017965470575,"pressure":1103.2426359221315,"voltage":11.518546655223632,"current":1.9057747994062324}
+[2024-09-01T00:48:03.067Z] Published sensor data:
+[2024-09-01T00:48:03.074Z] Received on sensor/data: {"temperature":20.700884130757963,"pressure":1056.2681431672504,"voltage":11.989057491885811,"current":3.0549328198144865}
+[2024-09-01T00:48:13.072Z] Published sensor data:
+[2024-09-01T00:48:13.089Z] Received on sensor/data: {"temperature":43.019832192572935,"pressure":934.6582849483871,"voltage":11.502340192586397,"current":8.010222339786084}
+[2024-09-01T00:48:23.072Z] Published sensor data:
+[2024-09-01T00:48:23.078Z] Received on sensor/data: {"temperature":46.08948452284726,"pressure":1156.4571139304385,"voltage":11.90495139353481,"current":1.1259476675540991}
+[2024-09-01T00:48:33.072Z] Published sensor data:
+[2024-09-01T00:48:33.077Z] Received on sensor/data: {"temperature":43.45148578273087,"pressure":953.9418876421981,"voltage":11.429924279658664,"current":7.050829920190629}
+[2024-09-01T00:48:43.073Z] Published sensor data:
+[2024-09-01T00:48:43.081Z] Received on sensor/data: {"temperature":18.76758286669324,"pressure":1137.086400217523,"voltage":12.493323884389742,"current":9.330190244769437}
+[2024-09-01T00:48:53.076Z] Published sensor data:
+[2024-09-01T00:48:53.088Z] Received on sensor/data: {"temperature":35.792441276506175,"pressure":913.661256357466,"voltage":11.010199818720011,"current":7.827717971345387}
+[2024-09-01T00:49:03.080Z] Published sensor data:
+[2024-09-01T00:49:03.085Z] Received on sensor/data: {"temperature":51.201490953200604,"pressure":1111.3426805309432,"voltage":11.289463160231325,"current":8.99158881543042}
+[2024-09-01T00:49:13.083Z] Published sensor data:
+[2024-09-01T00:49:13.096Z] Received on sensor/data: {"temperature":23.36147284301364,"pressure":1065.2009099205927,"voltage":11.83359092645554,"current":6.463497466388111}
+[2024-09-01T00:49:23.084Z] Published sensor data:
+[2024-09-01T00:49:23.087Z] Received on sensor/data: {"temperature":12.894826333557855,"pressure":1117.4594957865063,"voltage":12.41836668870799,"current":4.8788442806921655}
+[2024-09-01T00:49:33.083Z] Published sensor data:
+[2024-09-01T00:49:33.086Z] Received on sensor/data: {"temperature":40.400085337774186,"pressure":1124.1788650989138,"voltage":12.280782655666865,"current":6.575709346434595}
+[2024-09-01T00:49:43.085Z] Published sensor data:
+[2024-09-01T00:49:43.090Z] Received on sensor/data: {"temperature":50.14491910509337,"pressure":1082.7286320182097,"voltage":12.496765741200397,"current":2.577814037846946}
+[2024-09-01T00:49:53.085Z] Published sensor data:
+[2024-09-01T00:49:53.092Z] Received on sensor/data: {"temperature":16.74911370828934,"pressure":945.800554046216,"voltage":11.366817149656326,"current":6.717683907886234}
+[2024-09-01T00:50:03.085Z] Published sensor data:
+[2024-09-01T00:50:03.090Z] Received on sensor/data: {"temperature":32.2613818164137,"pressure":1139.1281997431693,"voltage":11.636550224135759,"current":4.794561686301537}
+[2024-09-01T00:50:13.086Z] Published sensor data:
+[2024-09-01T00:50:13.091Z] Received on sensor/data: {"temperature":17.124268409845193,"pressure":927.9841422844203,"voltage":11.038439850357772,"current":4.159964828607596}
+[2024-09-01T00:50:23.088Z] Published sensor data:
+[2024-09-01T00:50:23.092Z] Received on sensor/data: {"temperature":38.26485131769901,"pressure":960.5902705980769,"voltage":12.022436802594735,"current":7.820543451201722}
+[2024-09-01T00:50:33.088Z] Published sensor data:
+[2024-09-01T00:50:33.092Z] Received on sensor/data: {"temperature":8.789397568957284,"pressure":1006.9314662353183,"voltage":12.017799956136672,"current":3.3978171667018042}
+[2024-09-01T00:50:43.091Z] Published sensor data:
+[2024-09-01T00:50:43.101Z] Received on sensor/data: {"temperature":46.43590483648332,"pressure":1068.758548166075,"voltage":11.253451493298648,"current":1.5769512351517134}
+[2024-09-01T00:50:53.091Z] Published sensor data:
+[2024-09-01T00:50:53.096Z] Received on sensor/data: {"temperature":45.76661956407004,"pressure":976.3107000620914,"voltage":12.429582189171853,"current":3.6122666979682894}
+[2024-09-01T00:51:03.092Z] Published sensor data:
+[2024-09-01T00:51:03.099Z] Received on sensor/data: {"temperature":24.583294696832983,"pressure":1155.5360507198177,"voltage":11.082841377037324,"current":0.5142615411022433}
+[2024-09-01T00:51:13.092Z] Published sensor data:
+[2024-09-01T00:51:13.097Z] Received on sensor/data: {"temperature":40.132149993787266,"pressure":1036.5516490532432,"voltage":12.286715575911389,"current":8.76677192490906}
+[2024-09-01T00:51:23.094Z] Published sensor data:
+[2024-09-01T00:51:23.103Z] Received on sensor/data: {"temperature":31.77388791359823,"pressure":1044.9143136879295,"voltage":12.201909802453791,"current":1.3238830465222406}
+[2024-09-01T00:51:33.093Z] Published sensor data:
+[2024-09-01T00:51:33.098Z] Received on sensor/data: {"temperature":6.941080614436218,"pressure":1045.6818699002642,"voltage":11.363765888359836,"current":9.175518344292204}
+[2024-09-01T00:51:43.094Z] Published sensor data:
+[2024-09-01T00:51:43.100Z] Received on sensor/data: {"temperature":57.414749072109274,"pressure":1022.5147406007934,"voltage":11.677009566429499,"current":6.768582716024962}
+[2024-09-01T00:51:53.096Z] Published sensor data:
+[2024-09-01T00:51:53.105Z] Received on sensor/data: {"temperature":58.990390069181835,"pressure":955.7820251550913,"voltage":11.658318813349597,"current":0.40208975567416205}
+[2024-09-01T00:52:03.097Z] Published sensor data:
+[2024-09-01T00:52:03.107Z] Received on sensor/data: {"temperature":39.058169020547396,"pressure":935.0348187365346,"voltage":11.892595548561118,"current":1.623253432281082}
+[2024-09-01T00:52:13.101Z] Published sensor data:
+[2024-09-01T00:52:13.110Z] Received on sensor/data: {"temperature":54.06965117706741,"pressure":1113.3916670389763,"voltage":11.88209374595747,"current":3.4305637667745237}
+[2024-09-01T00:52:23.101Z] Published sensor data:
+[2024-09-01T00:52:23.106Z] Received on sensor/data: {"temperature":50.54949815126681,"pressure":958.4245096020406,"voltage":11.562007497667354,"current":8.772812553884961}
+[2024-09-01T00:52:33.102Z] Published sensor data:
+[2024-09-01T00:52:33.105Z] Received on sensor/data: {"temperature":56.335941853672296,"pressure":1084.6585242016522,"voltage":11.20607918148778,"current":9.406685002450123}
+[2024-09-01T00:52:43.104Z] Published sensor data:
+[2024-09-01T00:52:43.114Z] Received on sensor/data: {"temperature":29.81062823634707,"pressure":1064.7822639666615,"voltage":12.177302220168281,"current":6.339337705748824}
+[2024-09-01T00:52:53.104Z] Published sensor data:
+[2024-09-01T00:52:53.113Z] Received on sensor/data: {"temperature":7.251973845028311,"pressure":1150.763708046557,"voltage":11.492318158192154,"current":1.847091912778025}
+[2024-09-01T00:53:03.106Z] Published sensor data:
+[2024-09-01T00:53:03.109Z] Received on sensor/data: {"temperature":58.7360194663043,"pressure":931.2034897441135,"voltage":12.244151629211302,"current":0.5948552573550514}
+[2024-09-01T00:53:13.107Z] Published sensor data:
+[2024-09-01T00:53:13.111Z] Received on sensor/data: {"temperature":55.67233687210967,"pressure":1088.8482668130687,"voltage":11.142256198494733,"current":6.496236469468828}
+[2024-09-01T00:53:23.108Z] Published sensor data:
+[2024-09-01T00:53:23.115Z] Received on sensor/data: {"temperature":33.36433320925086,"pressure":1008.8208852212412,"voltage":11.435664696512644,"current":9.000196386506857}
+[2024-09-01T00:53:33.108Z] Published sensor data:
+[2024-09-01T00:53:33.110Z] Received on sensor/data: {"temperature":8.376810566841964,"pressure":1196.78378392479,"voltage":12.136916910060119,"current":8.379855052624523}
+[2024-09-01T00:53:43.109Z] Published sensor data:
+[2024-09-01T00:53:43.112Z] Received on sensor/data: {"temperature":45.08649914330244,"pressure":1120.4894118301434,"voltage":11.063617357337387,"current":7.574178535062412}
+[2024-09-01T00:53:53.110Z] Published sensor data:
+[2024-09-01T00:53:53.117Z] Received on sensor/data: {"temperature":37.18926494069651,"pressure":1169.4361458351048,"voltage":11.029803000284776,"current":1.0857820287959896}
+[2024-09-01T00:54:03.110Z] Published sensor data:
+[2024-09-01T00:54:03.114Z] Received on sensor/data: {"temperature":23.48280616429369,"pressure":1047.7291417909285,"voltage":12.013857040323158,"current":4.160883098435426}
+[2024-09-01T00:54:13.112Z] Published sensor data:
+[2024-09-01T00:54:13.125Z] Received on sensor/data: {"temperature":43.90185411279361,"pressure":927.0725649618013,"voltage":11.056896925722617,"current":1.184726958090292}
+[2024-09-01T00:54:23.113Z] Published sensor data:
+[2024-09-01T00:54:23.120Z] Received on sensor/data: {"temperature":33.07398045943184,"pressure":1003.6527073779488,"voltage":12.195026767325338,"current":2.5336370773763384}
+[2024-09-01T00:54:33.114Z] Published sensor data:
+[2024-09-01T00:54:33.117Z] Received on sensor/data: {"temperature":57.14997960568121,"pressure":1034.1978104165814,"voltage":12.169677605591403,"current":7.473309088041278}
+[2024-09-01T00:54:43.113Z] Published sensor data:
+[2024-09-01T00:54:43.123Z] Received on sensor/data: {"temperature":8.672101228357434,"pressure":938.5246952899613,"voltage":11.175682933211641,"current":3.1675904067274296}
+[2024-09-01T00:54:53.114Z] Published sensor data:
+[2024-09-01T00:54:53.117Z] Received on sensor/data: {"temperature":41.410369792571544,"pressure":1185.2126613809883,"voltage":11.027603930804933,"current":2.8493580182537115}
+[2024-09-01T00:55:03.114Z] Published sensor data:
+[2024-09-01T00:55:03.117Z] Received on sensor/data: {"temperature":7.314974683286769,"pressure":1160.0620731518727,"voltage":11.323066510302523,"current":1.7725977658301484}
+[2024-09-01T00:55:13.115Z] Published sensor data:
+[2024-09-01T00:55:13.119Z] Received on sensor/data: {"temperature":44.23446084714088,"pressure":966.040264578769,"voltage":11.248386438442596,"current":4.228717677756881}
+[2024-09-01T00:55:23.116Z] Published sensor data:
+[2024-09-01T00:55:23.124Z] Received on sensor/data: {"temperature":24.322589259044047,"pressure":1109.675593212716,"voltage":11.402078274296846,"current":0.9472941523393263}
+[2024-09-01T00:55:33.116Z] Published sensor data:
+[2024-09-01T00:55:33.122Z] Received on sensor/data: {"temperature":18.653562824531623,"pressure":900.441211044354,"voltage":12.222083513055761,"current":3.1228300568421052}
+[2024-09-01T00:55:43.118Z] Published sensor data:
+[2024-09-01T00:55:43.121Z] Received on sensor/data: {"temperature":27.124290302468495,"pressure":1158.2297787044154,"voltage":11.811835859092673,"current":2.697223517355729}
+[2024-09-01T00:55:53.118Z] Published sensor data:
+[2024-09-01T00:55:53.125Z] Received on sensor/data: {"temperature":24.378938932598185,"pressure":922.7389114462211,"voltage":11.657013575633206,"current":3.6473312885425213}
+[2024-09-01T00:56:03.119Z] Published sensor data:
+[2024-09-01T00:56:03.125Z] Received on sensor/data: {"temperature":56.038764292321815,"pressure":909.241880736852,"voltage":11.539025609549952,"current":8.776554747939926}
+[2024-09-01T00:56:13.120Z] Published sensor data:
+[2024-09-01T00:56:13.124Z] Received on sensor/data: {"temperature":42.1255093900482,"pressure":1074.7079318571969,"voltage":12.267290988166392,"current":7.357253958563705}
+[2024-09-01T00:56:23.121Z] Published sensor data:
+[2024-09-01T00:56:23.126Z] Received on sensor/data: {"temperature":37.779538542038566,"pressure":900.656681359756,"voltage":11.16765049414547,"current":2.1145727215054744}
+[2024-09-01T00:56:33.122Z] Published sensor data:
+[2024-09-01T00:56:33.126Z] Received on sensor/data: {"temperature":8.391087418631242,"pressure":1127.576350585391,"voltage":11.352789511306133,"current":1.129827363970779}
+[2024-09-01T00:56:43.123Z] Published sensor data:
+[2024-09-01T00:56:43.127Z] Received on sensor/data: {"temperature":28.474822243751095,"pressure":932.9138670664917,"voltage":11.32559679921221,"current":7.652212271390388}
+[2024-09-01T00:56:53.124Z] Published sensor data:
+[2024-09-01T00:56:53.131Z] Received on sensor/data: {"temperature":13.49768287442161,"pressure":1118.0034173332024,"voltage":11.545826450464672,"current":9.932676672009288}
+[2024-09-01T00:57:03.125Z] Published sensor data:
+[2024-09-01T00:57:03.143Z] Received on sensor/data: {"temperature":57.41261927047989,"pressure":1038.6955076699219,"voltage":12.002599748804236,"current":5.085925308327333}
+[2024-09-01T00:57:13.126Z] Published sensor data:
+[2024-09-01T00:57:13.130Z] Received on sensor/data: {"temperature":22.658070499017914,"pressure":966.8184009886961,"voltage":11.877316056674431,"current":0.6653806460737965}
+[2024-09-01T00:57:23.126Z] Published sensor data:
+[2024-09-01T00:57:23.130Z] Received on sensor/data: {"temperature":35.772328672234316,"pressure":1067.0538448837628,"voltage":11.587920617693058,"current":6.245471784968362}
+[2024-09-01T00:57:33.129Z] Published sensor data:
+[2024-09-01T00:57:33.133Z] Received on sensor/data: {"temperature":5.521275243611957,"pressure":928.9272136695278,"voltage":11.765935467889427,"current":6.691456070883066}
+[2024-09-01T00:57:43.130Z] Published sensor data:
+[2024-09-01T00:57:43.134Z] Received on sensor/data: {"temperature":19.342953924521936,"pressure":925.9047746075231,"voltage":11.29875273686667,"current":3.4418982126692077}
+[2024-09-01T00:57:53.131Z] Published sensor data:
+[2024-09-01T00:57:53.137Z] Received on sensor/data: {"temperature":32.968285085721604,"pressure":1082.8644373771224,"voltage":11.903452309841953,"current":7.429777048691745}
+[2024-09-01T00:58:03.132Z] Published sensor data:
+[2024-09-01T00:58:03.141Z] Received on sensor/data: {"temperature":5.43587782002863,"pressure":934.39169993001,"voltage":11.086516809843756,"current":4.2347329852730065}
+[2024-09-01T00:58:13.137Z] Published sensor data:
+[2024-09-01T00:58:13.141Z] Received on sensor/data: {"temperature":25.86952516541598,"pressure":1055.4714395493575,"voltage":12.46629360326786,"current":6.835125439675165}
+[2024-09-01T00:58:23.139Z] Published sensor data:
+[2024-09-01T00:58:23.150Z] Received on sensor/data: {"temperature":41.60808857744182,"pressure":994.7384236782198,"voltage":11.543317851173889,"current":2.1354225034285212}
+[2024-09-01T00:58:33.143Z] Published sensor data:
+[2024-09-01T00:58:33.149Z] Received on sensor/data: {"temperature":56.83431069473931,"pressure":1106.3019085513824,"voltage":11.124260186560385,"current":5.069830589775575}
+[2024-09-01T00:58:43.144Z] Published sensor data:
+[2024-09-01T00:58:43.154Z] Received on sensor/data: {"temperature":52.10911001304017,"pressure":922.434399881335,"voltage":12.085302312867542,"current":6.227798710817696}
+[2024-09-01T00:58:53.146Z] Published sensor data:
+[2024-09-01T00:58:53.158Z] Received on sensor/data: {"temperature":36.74171973257934,"pressure":1052.2557217489612,"voltage":12.038220281281633,"current":2.668498105123329}
+[2024-09-01T00:59:03.147Z] Published sensor data:
+[2024-09-01T00:59:03.151Z] Received on sensor/data: {"temperature":34.65488581319836,"pressure":1198.9149281668592,"voltage":11.607448471764776,"current":2.1431883349753877}
+[2024-09-01T00:59:13.148Z] Published sensor data:
+[2024-09-01T00:59:13.157Z] Received on sensor/data: {"temperature":28.22149791586137,"pressure":1012.8298125930232,"voltage":11.369935667722498,"current":3.5709643550253833}
+[2024-09-01T00:59:23.149Z] Published sensor data:
+[2024-09-01T00:59:23.154Z] Received on sensor/data: {"temperature":57.241233887996465,"pressure":951.5762156229034,"voltage":11.551565618043462,"current":2.94141438521091}
+[2024-09-01T00:59:33.151Z] Published sensor data:
+[2024-09-01T00:59:33.155Z] Received on sensor/data: {"temperature":8.490758674495648,"pressure":974.6504685958705,"voltage":12.278018050060448,"current":7.608933632278331}
+[2024-09-01T00:59:43.153Z] Published sensor data:
+[2024-09-01T00:59:43.166Z] Received on sensor/data: {"temperature":16.87633397839569,"pressure":1016.7564005848346,"voltage":12.282870987961147,"current":0.6516571808289462}
+[2024-09-01T00:59:53.154Z] Published sensor data:
+[2024-09-01T00:59:53.172Z] Received on sensor/data: {"temperature":16.17274697419804,"pressure":1127.3315869259006,"voltage":11.234716689643719,"current":1.0102879264521913}
+[2024-09-01T01:00:03.157Z] Published sensor data:
+[2024-09-01T01:00:03.169Z] Received on sensor/data: {"temperature":40.14960961681635,"pressure":948.6685601647386,"voltage":12.118268943928221,"current":2.676024231477172}
+[2024-09-01T01:00:13.158Z] Published sensor data:
+[2024-09-01T01:00:13.162Z] Received on sensor/data: {"temperature":37.825279376115546,"pressure":997.3478279098667,"voltage":12.187112987917937,"current":2.126068695890573}
+[2024-09-01T01:00:23.159Z] Published sensor data:
+[2024-09-01T01:00:23.162Z] Received on sensor/data: {"temperature":5.405021831291242,"pressure":982.4326674237501,"voltage":12.27647661308334,"current":5.676484177175367}
+[2024-09-01T01:00:33.161Z] Published sensor data:
+[2024-09-01T01:00:33.165Z] Received on sensor/data: {"temperature":36.881177719392355,"pressure":1097.476840444711,"voltage":12.190571064019686,"current":7.5253971064727025}
+[2024-09-01T01:00:43.162Z] Published sensor data:
+[2024-09-01T01:00:43.165Z] Received on sensor/data: {"temperature":22.114973624042246,"pressure":983.0057068528683,"voltage":12.082730119376231,"current":6.707802217676109}
+[2024-09-01T01:00:53.162Z] Published sensor data:
+[2024-09-01T01:00:53.173Z] Received on sensor/data: {"temperature":42.08723023360663,"pressure":945.855478946078,"voltage":12.453450644364581,"current":6.395701731606682}
+[2024-09-01T01:01:03.162Z] Published sensor data:
+[2024-09-01T01:01:03.169Z] Received on sensor/data: {"temperature":57.79210596019066,"pressure":907.2547428588227,"voltage":12.444312159414432,"current":9.326717995823552}
+[2024-09-01T01:01:13.164Z] Published sensor data:
+[2024-09-01T01:01:13.174Z] Received on sensor/data: {"temperature":22.991048230332048,"pressure":943.6340902364645,"voltage":11.220965264748958,"current":9.14673318449971}
+[2024-09-01T01:01:23.165Z] Published sensor data:
+[2024-09-01T01:01:23.170Z] Received on sensor/data: {"temperature":5.23548893583147,"pressure":937.156425302293,"voltage":12.082789656523342,"current":2.885844626576166}
+[2024-09-01T01:01:33.166Z] Published sensor data:
+[2024-09-01T01:01:33.171Z] Received on sensor/data: {"temperature":47.79450555141406,"pressure":1094.0506041906062,"voltage":12.004787288043675,"current":4.907573998472293}
+[2024-09-01T01:01:43.172Z] Published sensor data:
+[2024-09-01T01:01:43.183Z] Received on sensor/data: {"temperature":17.882782931054503,"pressure":1178.6206365912306,"voltage":11.431586675081496,"current":2.8711496941442904}
+[2024-09-01T01:01:53.170Z] Published sensor data:
+[2024-09-01T01:01:53.189Z] Received on sensor/data: {"temperature":32.436752607423536,"pressure":1166.7918861305952,"voltage":11.883113570511371,"current":2.4773589263694973}
+[2024-09-01T01:02:03.173Z] Published sensor data:
+[2024-09-01T01:02:03.187Z] Received on sensor/data: {"temperature":6.320938206597596,"pressure":1143.8637940220192,"voltage":11.79120951602781,"current":2.693996522137423}
+[2024-09-01T01:02:13.174Z] Published sensor data:
+[2024-09-01T01:02:13.182Z] Received on sensor/data: {"temperature":55.92328072690126,"pressure":1028.2287872323902,"voltage":11.3136975247572,"current":1.0718980598403571}
+[2024-09-01T01:02:23.183Z] Published sensor data:
+[2024-09-01T01:02:23.190Z] Received on sensor/data: {"temperature":24.28995318495592,"pressure":1150.7915346977143,"voltage":11.995221164594131,"current":3.4472228954172768}
+[2024-09-01T01:02:33.180Z] Published sensor data:
+[2024-09-01T01:02:33.183Z] Received on sensor/data: {"temperature":33.17923780278072,"pressure":1117.8612966545395,"voltage":12.296609325008298,"current":3.5615256407957263}
+[2024-09-01T01:02:43.181Z] Published sensor data:
+[2024-09-01T01:02:43.190Z] Received on sensor/data: {"temperature":37.86873418962519,"pressure":976.516396171115,"voltage":11.627509897584693,"current":8.743718813744914}
+[2024-09-01T01:02:53.183Z] Published sensor data:
+[2024-09-01T01:02:53.191Z] Received on sensor/data: {"temperature":21.23868761802997,"pressure":975.9130893998308,"voltage":11.008148021666464,"current":7.544694545217709}
+[2024-09-01T01:03:03.183Z] Published sensor data:
+[2024-09-01T01:03:03.195Z] Received on sensor/data: {"temperature":48.695559191077095,"pressure":1138.125720824104,"voltage":12.393246101393377,"current":7.506538512503256}
+[2024-09-01T01:03:13.185Z] Published sensor data:
+[2024-09-01T01:03:13.194Z] Received on sensor/data: {"temperature":38.38195553069955,"pressure":1053.7958209123485,"voltage":12.140404258146702,"current":9.188644488579289}
+[2024-09-01T01:03:23.186Z] Published sensor data:
+[2024-09-01T01:03:23.219Z] Received on sensor/data: {"temperature":33.81200822661903,"pressure":996.1509792847155,"voltage":11.438137523003803,"current":2.339743539627608}
+[2024-09-01T01:03:33.187Z] Published sensor data:
+[2024-09-01T01:03:33.214Z] Received on sensor/data: {"temperature":22.066029117621095,"pressure":1087.034294064791,"voltage":11.152326247348672,"current":4.363075585369096}
+[2024-09-01T01:03:43.197Z] Published sensor data:
+[2024-09-01T01:03:43.214Z] Received on sensor/data: {"temperature":57.55650974869757,"pressure":969.9329004722567,"voltage":11.745338086195126,"current":5.976004434727981}
+[2024-09-01T01:03:53.196Z] Published sensor data:
+[2024-09-01T01:03:53.205Z] Received on sensor/data: {"temperature":57.784653779037406,"pressure":935.6422465967921,"voltage":12.097303208400108,"current":6.615094004505329}
+[2024-09-01T01:04:03.199Z] Published sensor data:
+[2024-09-01T01:04:03.213Z] Received on sensor/data: {"temperature":15.047677525632558,"pressure":1020.7247928615154,"voltage":12.051733847760588,"current":1.3028430432392057}
+[2024-09-01T01:04:13.200Z] Published sensor data:
+[2024-09-01T01:04:13.206Z] Received on sensor/data: {"temperature":56.95489006963105,"pressure":957.5814443179011,"voltage":11.585244709903842,"current":8.039587284792216}
+[2024-09-01T01:04:23.202Z] Published sensor data:
+[2024-09-01T01:04:23.212Z] Received on sensor/data: {"temperature":52.55366859357347,"pressure":1036.3683126188705,"voltage":11.823646154438865,"current":9.843103900566543}
+[2024-09-01T01:04:33.204Z] Published sensor data:
+[2024-09-01T01:04:33.214Z] Received on sensor/data: {"temperature":10.982700986030522,"pressure":954.019646844813,"voltage":11.454467857475102,"current":3.0176856312073763}
+[2024-09-01T01:04:43.204Z] Published sensor data:
+[2024-09-01T01:04:43.207Z] Received on sensor/data: {"temperature":16.489775363181135,"pressure":1002.3315734336801,"voltage":12.220772152606603,"current":1.8384929378596726}
+[2024-09-01T01:04:53.206Z] Published sensor data:
+[2024-09-01T01:04:53.214Z] Received on sensor/data: {"temperature":27.680627394850873,"pressure":921.2535499553899,"voltage":11.69012112435048,"current":7.714170974769992}
+[2024-09-01T01:05:03.207Z] Published sensor data:
+[2024-09-01T01:05:03.211Z] Received on sensor/data: {"temperature":39.91911875141702,"pressure":930.9597190837358,"voltage":11.395621356138783,"current":1.381178473605551}
+[2024-09-01T01:05:13.209Z] Published sensor data:
+[2024-09-01T01:05:13.213Z] Received on sensor/data: {"temperature":26.493816499408194,"pressure":1027.8554737043955,"voltage":12.20402999531671,"current":0.814113266272094}
+[2024-09-01T01:05:23.211Z] Published sensor data:
+[2024-09-01T01:05:23.220Z] Received on sensor/data: {"temperature":53.434468771837615,"pressure":935.8671040139628,"voltage":12.17768380913431,"current":0.022725867784676446}
+[2024-09-01T01:05:33.211Z] Published sensor data:
+[2024-09-01T01:05:33.214Z] Received on sensor/data: {"temperature":44.32090072344328,"pressure":1064.685996682522,"voltage":11.75309987019712,"current":9.376869183095298}
+[2024-09-01T01:05:43.213Z] Published sensor data:
+[2024-09-01T01:05:43.216Z] Received on sensor/data: {"temperature":26.0663716769314,"pressure":1083.7391874003065,"voltage":12.214008962245988,"current":6.910042628280908}
+[2024-09-01T01:05:53.213Z] Published sensor data:
+[2024-09-01T01:05:53.219Z] Received on sensor/data: {"temperature":56.508963221966646,"pressure":1152.172763278727,"voltage":11.734305013255604,"current":5.835626419169895}
+[2024-09-01T01:06:03.214Z] Published sensor data:
+[2024-09-01T01:06:03.218Z] Received on sensor/data: {"temperature":15.37793296694503,"pressure":1031.05086539737,"voltage":12.163281488046344,"current":0.1138814339166605}
+[2024-09-01T01:06:13.218Z] Published sensor data:
+[2024-09-01T01:06:13.223Z] Received on sensor/data: {"temperature":58.60979179123674,"pressure":941.20287340213,"voltage":12.103668177123858,"current":0.22809237664134896}
+[2024-09-01T01:06:23.217Z] Published sensor data:
+[2024-09-01T01:06:23.220Z] Received on sensor/data: {"temperature":39.63263217413491,"pressure":1109.2501075591595,"voltage":12.000827620818932,"current":6.382203973550142}
+[2024-09-01T01:06:33.217Z] Published sensor data:
+[2024-09-01T01:06:33.221Z] Received on sensor/data: {"temperature":58.41352722866311,"pressure":918.4835074786334,"voltage":12.147078193220379,"current":9.298514286266247}
+[2024-09-01T01:06:43.217Z] Published sensor data:
+[2024-09-01T01:06:43.221Z] Received on sensor/data: {"temperature":38.40558519979075,"pressure":1123.7780140032955,"voltage":11.093255609079993,"current":7.066361931959992}
+[2024-09-01T01:06:53.219Z] Published sensor data:
+[2024-09-01T01:06:53.224Z] Received on sensor/data: {"temperature":33.04187743205064,"pressure":964.035987962754,"voltage":11.021888563140084,"current":5.287602777907274}
+[2024-09-01T01:07:03.221Z] Published sensor data:
+[2024-09-01T01:07:03.223Z] Received on sensor/data: {"temperature":31.70080046913555,"pressure":968.0175216499645,"voltage":11.623279423502805,"current":8.083391928714775}
+[2024-09-01T01:07:13.221Z] Published sensor data:
+[2024-09-01T01:07:13.224Z] Received on sensor/data: {"temperature":5.157557158975221,"pressure":933.4638770932108,"voltage":11.84270976383994,"current":6.612878116259784}
+[2024-09-01T01:07:23.222Z] Published sensor data:
+[2024-09-01T01:07:23.225Z] Received on sensor/data: {"temperature":22.243666116573,"pressure":1153.4733699543542,"voltage":12.338402168169825,"current":6.192062658445248}
+[2024-09-01T01:07:33.223Z] Published sensor data:
+[2024-09-01T01:07:33.227Z] Received on sensor/data: {"temperature":41.43059616544233,"pressure":985.4476869102833,"voltage":12.397851478249564,"current":7.452045794319546}
+[2024-09-01T01:07:43.224Z] Published sensor data:
+[2024-09-01T01:07:43.230Z] Received on sensor/data: {"temperature":36.53270504498381,"pressure":998.675553901876,"voltage":12.122526909261051,"current":1.867787560754297}
+[2024-09-01T01:07:53.225Z] Published sensor data:
+[2024-09-01T01:07:53.231Z] Received on sensor/data: {"temperature":47.36688415494682,"pressure":973.4456358905371,"voltage":12.21502730955627,"current":1.7987559735229786}
+[2024-09-01T01:08:03.226Z] Published sensor data:
+[2024-09-01T01:08:03.228Z] Received on sensor/data: {"temperature":47.76307979117971,"pressure":1001.2748389634557,"voltage":11.046432183045425,"current":1.0817555068609863}
+[2024-09-01T01:08:13.227Z] Published sensor data:
+[2024-09-01T01:08:13.231Z] Received on sensor/data: {"temperature":56.10107861654551,"pressure":973.7923902330335,"voltage":11.589174160513137,"current":1.7159562632290615}
+[2024-09-01T01:08:23.229Z] Published sensor data:
+[2024-09-01T01:08:23.241Z] Received on sensor/data: {"temperature":24.294913992185947,"pressure":1139.2244962054733,"voltage":12.069980586486372,"current":3.380857911902102}
+[2024-09-01T01:08:33.232Z] Published sensor data:
+[2024-09-01T01:08:33.235Z] Received on sensor/data: {"temperature":48.12078997288159,"pressure":1035.0724671239695,"voltage":11.264641151898545,"current":8.804593975887137}
+[2024-09-01T01:08:43.234Z] Published sensor data:
+[2024-09-01T01:08:43.239Z] Received on sensor/data: {"temperature":6.374079398429525,"pressure":985.7976322358018,"voltage":11.004712339224112,"current":8.074386749927683}
+[2024-09-01T01:08:53.236Z] Published sensor data:
+[2024-09-01T01:08:53.258Z] Received on sensor/data: {"temperature":26.269024260777456,"pressure":1018.6256213266516,"voltage":11.226216273529067,"current":8.497233997648193}
+[2024-09-01T01:09:03.236Z] Published sensor data:
+[2024-09-01T01:09:03.240Z] Received on sensor/data: {"temperature":17.745580336597193,"pressure":991.6785004923554,"voltage":12.302249610766856,"current":6.16062528361568}
+[2024-09-01T01:09:13.238Z] Published sensor data:
+[2024-09-01T01:09:13.245Z] Received on sensor/data: {"temperature":47.35354947657213,"pressure":1117.0761066010896,"voltage":11.909033161980302,"current":7.403828648695459}
+[2024-09-01T01:09:23.241Z] Published sensor data:
+[2024-09-01T01:09:23.254Z] Received on sensor/data: {"temperature":50.911606816461386,"pressure":1062.8385145418417,"voltage":12.115985789234426,"current":0.6465865860779818}
+[2024-09-01T01:09:33.241Z] Published sensor data:
+[2024-09-01T01:09:33.244Z] Received on sensor/data: {"temperature":6.884293045560131,"pressure":932.7542071787913,"voltage":12.004457185294324,"current":2.964903095138629}
+[2024-09-01T01:09:43.241Z] Published sensor data:
+[2024-09-01T01:09:43.243Z] Received on sensor/data: {"temperature":38.55059406482716,"pressure":1086.1428839753905,"voltage":11.483585354262788,"current":7.115408752439334}
+[2024-09-01T01:09:53.243Z] Published sensor data:
+[2024-09-01T01:09:53.257Z] Received on sensor/data: {"temperature":12.836497596503243,"pressure":1054.8556955270153,"voltage":11.22171363621846,"current":7.526752210058949}
+[2024-09-01T01:10:03.243Z] Published sensor data:
+[2024-09-01T01:10:03.246Z] Received on sensor/data: {"temperature":10.658504942064507,"pressure":1064.0006417004079,"voltage":11.2855377130593,"current":8.499516709109296}
+[2024-09-01T01:10:13.249Z] Published sensor data:
+[2024-09-01T01:10:13.266Z] Received on sensor/data: {"temperature":22.0278597778257,"pressure":1126.392543675231,"voltage":12.288257718326488,"current":3.741083467202755}
+[2024-09-01T01:10:23.246Z] Published sensor data:
+[2024-09-01T01:10:23.250Z] Received on sensor/data: {"temperature":10.51157759311689,"pressure":1187.071705970308,"voltage":12.216116273910904,"current":8.898570354624347}
+[2024-09-01T01:10:33.247Z] Published sensor data:
+[2024-09-01T01:10:33.250Z] Received on sensor/data: {"temperature":17.129624407394928,"pressure":1047.4250310741872,"voltage":12.28487478867855,"current":7.516466858502168}
+[2024-09-01T01:10:43.249Z] Published sensor data:
+[2024-09-01T01:10:43.259Z] Received on sensor/data: {"temperature":11.095260573387755,"pressure":1172.2334219814954,"voltage":12.329074637104837,"current":4.091452817226577}
+[2024-09-01T01:10:53.250Z] Published sensor data:
+[2024-09-01T01:10:53.267Z] Received on sensor/data: {"temperature":40.034586061169904,"pressure":984.1584759512964,"voltage":12.259566997791957,"current":5.714386717561968}
+[2024-09-01T01:11:03.253Z] Published sensor data:
+[2024-09-01T01:11:03.283Z] Received on sensor/data: {"temperature":47.61251188819678,"pressure":993.3552184678612,"voltage":11.774984250129616,"current":0.7045815600526084}
+[2024-09-01T01:11:13.253Z] Published sensor data:
+[2024-09-01T01:11:13.259Z] Received on sensor/data: {"temperature":35.08560009502716,"pressure":1104.839450976728,"voltage":12.038375838628157,"current":9.649320733611777}
+[2024-09-01T01:11:23.253Z] Published sensor data:
+[2024-09-01T01:11:23.259Z] Received on sensor/data: {"temperature":52.34602489206678,"pressure":1031.8601617411468,"voltage":11.26008245399677,"current":1.5744739242689665}
+[2024-09-01T01:11:33.253Z] Published sensor data:
+[2024-09-01T01:11:33.258Z] Received on sensor/data: {"temperature":7.139966842516933,"pressure":1042.2613744909384,"voltage":11.447310974813039,"current":4.626559967914772}
+[2024-09-01T01:11:43.256Z] Published sensor data:
+[2024-09-01T01:11:43.267Z] Received on sensor/data: {"temperature":10.021488639032906,"pressure":1012.1327249100584,"voltage":11.889328933706096,"current":9.256050757186046}
+[2024-09-01T01:11:53.258Z] Published sensor data:
+[2024-09-01T01:11:53.283Z] Received on sensor/data: {"temperature":39.3127583381502,"pressure":1140.809646002272,"voltage":11.233652137096865,"current":2.0480368982628794}
+[2024-09-01T01:12:03.258Z] Published sensor data:
+[2024-09-01T01:12:03.266Z] Received on sensor/data: {"temperature":54.70532209885007,"pressure":936.6560267910836,"voltage":11.46151889221279,"current":0.4947022961559777}
+[2024-09-01T01:12:13.260Z] Published sensor data:
+[2024-09-01T01:12:13.274Z] Received on sensor/data: {"temperature":47.8523687836255,"pressure":1109.8453213655146,"voltage":11.183017567273493,"current":1.3033277422149436}
+[2024-09-01T01:12:23.262Z] Published sensor data:
+[2024-09-01T01:12:23.283Z] Received on sensor/data: {"temperature":8.089514411992347,"pressure":1137.320026068161,"voltage":11.64248359105725,"current":4.803938706728889}
+[2024-09-01T01:12:33.262Z] Published sensor data:
+[2024-09-01T01:12:33.274Z] Received on sensor/data: {"temperature":53.2514027639388,"pressure":1118.9855263618563,"voltage":12.083036461811112,"current":9.43295592186326}
+[2024-09-01T01:12:43.263Z] Published sensor data:
+[2024-09-01T01:12:43.267Z] Received on sensor/data: {"temperature":5.244454811579394,"pressure":942.8177415604117,"voltage":12.15167329541052,"current":2.967202271999627}
+[2024-09-01T01:12:53.263Z] Published sensor data:
+[2024-09-01T01:12:53.270Z] Received on sensor/data: {"temperature":23.34042213761854,"pressure":949.6576025571651,"voltage":12.245592237163425,"current":4.5097023887803855}
+[2024-09-01T01:13:03.266Z] Published sensor data:
+[2024-09-01T01:13:03.278Z] Received on sensor/data: {"temperature":41.185344855752994,"pressure":1079.4873210896742,"voltage":12.069020425351209,"current":5.346825903894743}
+[2024-09-01T01:13:13.269Z] Published sensor data:
+[2024-09-01T01:13:13.280Z] Received on sensor/data: {"temperature":38.72865675662476,"pressure":1093.3519252885885,"voltage":12.335551415517447,"current":3.5520757641597345}
+[2024-09-01T01:13:23.268Z] Published sensor data:
+[2024-09-01T01:13:23.273Z] Received on sensor/data: {"temperature":14.899227315970125,"pressure":1082.836851240441,"voltage":11.69529290828891,"current":5.167441884508703}
+[2024-09-01T01:13:33.269Z] Published sensor data:
+[2024-09-01T01:13:33.277Z] Received on sensor/data: {"temperature":8.00235745985694,"pressure":1057.3634169957327,"voltage":11.895823134567886,"current":7.523417315441416}
+[2024-09-01T01:13:43.272Z] Published sensor data:
+[2024-09-01T01:13:43.291Z] Received on sensor/data: {"temperature":30.036477405653116,"pressure":969.9758134301097,"voltage":11.565652165363785,"current":4.39454218256206}
+[2024-09-01T01:13:53.273Z] Published sensor data:
+[2024-09-01T01:13:53.290Z] Received on sensor/data: {"temperature":14.761708759203474,"pressure":987.216142124354,"voltage":11.868096938689371,"current":3.305214097898801}
+[2024-09-01T01:14:03.276Z] Published sensor data:
+[2024-09-01T01:14:03.292Z] Received on sensor/data: {"temperature":47.837600312993075,"pressure":1043.3046667441638,"voltage":11.303922097398864,"current":1.588714575555541}
+[2024-09-01T01:14:13.279Z] Published sensor data:
+[2024-09-01T01:14:13.287Z] Received on sensor/data: {"temperature":19.585773829544568,"pressure":1046.8402178057556,"voltage":11.297194607735504,"current":3.899499152634749}
+[2024-09-01T01:14:23.279Z] Published sensor data:
+[2024-09-01T01:14:23.289Z] Received on sensor/data: {"temperature":55.636554973778864,"pressure":1197.6024791958885,"voltage":12.082536998099789,"current":3.9911581720086}
+[2024-09-01T01:14:33.280Z] Published sensor data:
+[2024-09-01T01:14:33.284Z] Received on sensor/data: {"temperature":30.415538695904246,"pressure":994.9205965676805,"voltage":11.178152720091157,"current":6.174572485209502}
+[2024-09-01T01:14:43.282Z] Published sensor data:
+[2024-09-01T01:14:43.284Z] Received on sensor/data: {"temperature":20.363916511517417,"pressure":929.0416987641495,"voltage":12.228114943128247,"current":7.67859346123047}
+[2024-09-01T01:14:53.285Z] Published sensor data:
+[2024-09-01T01:14:53.295Z] Received on sensor/data: {"temperature":14.539239685327745,"pressure":1142.7480753258258,"voltage":11.100066235042195,"current":3.4001869393578676}
+[2024-09-01T01:15:03.289Z] Published sensor data:
+[2024-09-01T01:15:03.298Z] Received on sensor/data: {"temperature":52.99806987826888,"pressure":1165.991857638385,"voltage":11.752627982207063,"current":0.013844234973989789}
+[2024-09-01T01:15:13.289Z] Published sensor data:
+[2024-09-01T01:15:13.293Z] Received on sensor/data: {"temperature":33.52701855429622,"pressure":1004.6726655879918,"voltage":11.876878371601016,"current":9.364828035618388}
+[2024-09-01T01:15:23.291Z] Published sensor data:
+[2024-09-01T01:15:23.296Z] Received on sensor/data: {"temperature":35.07541024339709,"pressure":1199.2222525774619,"voltage":11.15114183913541,"current":5.07563758384353}
+[2024-09-01T01:15:33.293Z] Published sensor data:
+[2024-09-01T01:15:33.305Z] Received on sensor/data: {"temperature":26.470127594064575,"pressure":990.6900889316393,"voltage":12.281758121422875,"current":4.690531416286385}
+[2024-09-01T01:15:43.294Z] Published sensor data:
+[2024-09-01T01:15:43.299Z] Received on sensor/data: {"temperature":37.825979886327126,"pressure":936.885559506665,"voltage":12.18206423012793,"current":0.1178989827198218}
+[2024-09-01T01:15:53.294Z] Published sensor data:
+[2024-09-01T01:15:53.301Z] Received on sensor/data: {"temperature":44.65593153599762,"pressure":997.3081079216018,"voltage":12.440121850710748,"current":9.798472356518603}
+[2024-09-01T01:16:03.296Z] Published sensor data:
+[2024-09-01T01:16:03.303Z] Received on sensor/data: {"temperature":59.959270566744,"pressure":1102.7206658239395,"voltage":12.497930885706705,"current":3.1486618694114266}
+[2024-09-01T01:16:13.297Z] Published sensor data:
+[2024-09-01T01:16:13.302Z] Received on sensor/data: {"temperature":45.060747810877636,"pressure":1101.518306291011,"voltage":11.726826327068615,"current":8.055497527915884}
+[2024-09-01T01:16:23.297Z] Published sensor data:
+[2024-09-01T01:16:23.301Z] Received on sensor/data: {"temperature":42.5961424336475,"pressure":909.2367912391492,"voltage":12.486935019158027,"current":7.6227393420594485}
+[2024-09-01T01:16:33.299Z] Published sensor data:
+[2024-09-01T01:16:33.303Z] Received on sensor/data: {"temperature":24.533789335876733,"pressure":1179.2079615716061,"voltage":12.226235222486535,"current":0.7932319272454258}
+[2024-09-01T01:16:43.300Z] Published sensor data:
+[2024-09-01T01:16:43.307Z] Received on sensor/data: {"temperature":37.71287441766968,"pressure":985.9006680436919,"voltage":12.161706583088462,"current":4.694074351094171}
+[2024-09-01T01:16:53.301Z] Published sensor data:
+[2024-09-01T01:16:53.307Z] Received on sensor/data: {"temperature":58.776753502103325,"pressure":1183.4739250368782,"voltage":11.027874021442024,"current":1.8685259429202783}
+[2024-09-01T01:17:03.302Z] Published sensor data:
+[2024-09-01T01:17:03.307Z] Received on sensor/data: {"temperature":32.78682548743285,"pressure":1193.2362317193652,"voltage":12.184085791101761,"current":0.5643239541191436}
+[2024-09-01T01:17:13.302Z] Published sensor data:
+[2024-09-01T01:17:13.306Z] Received on sensor/data: {"temperature":30.91950542391492,"pressure":1036.9536998742485,"voltage":12.239165342653061,"current":1.4744013645573761}
+[2024-09-01T01:17:23.303Z] Published sensor data:
+[2024-09-01T01:17:23.308Z] Received on sensor/data: {"temperature":48.44084001761417,"pressure":1081.9287463134792,"voltage":12.024836122934017,"current":4.012276322754746}
+[2024-09-01T01:17:33.307Z] Published sensor data:
+[2024-09-01T01:17:33.336Z] Received on sensor/data: {"temperature":34.50415658586106,"pressure":1173.1835613489593,"voltage":12.182424782905631,"current":9.10927628115449}
+[2024-09-01T01:17:43.307Z] Published sensor data:
+[2024-09-01T01:17:43.318Z] Received on sensor/data: {"temperature":40.85727319830002,"pressure":1048.5610195995148,"voltage":11.55514458283864,"current":7.350610030550831}
+[2024-09-01T01:17:53.307Z] Published sensor data:
+[2024-09-01T01:17:53.313Z] Received on sensor/data: {"temperature":25.86154917025629,"pressure":1177.501065559213,"voltage":11.231460630657844,"current":1.5075325120782601}
+[2024-09-01T01:18:03.308Z] Published sensor data:
+[2024-09-01T01:18:03.310Z] Received on sensor/data: {"temperature":21.105251467481896,"pressure":935.503272269671,"voltage":11.749975175082119,"current":9.413052281824243}
+[2024-09-01T01:18:13.309Z] Published sensor data:
+[2024-09-01T01:18:13.313Z] Received on sensor/data: {"temperature":9.447750860677063,"pressure":1031.1635808537867,"voltage":12.093308762964234,"current":6.027902733374091}
+[2024-09-01T01:18:23.311Z] Published sensor data:
+[2024-09-01T01:18:23.332Z] Received on sensor/data: {"temperature":44.619143939464095,"pressure":909.6551357800851,"voltage":12.253006886843822,"current":0.33476094460723527}
+[2024-09-01T01:18:33.314Z] Published sensor data:
+[2024-09-01T01:18:33.318Z] Received on sensor/data: {"temperature":51.27457585141691,"pressure":922.1523571413,"voltage":11.741702270042802,"current":7.528270095558978}
+[2024-09-01T01:18:43.315Z] Published sensor data:
+[2024-09-01T01:18:43.502Z] Received on sensor/data: {"temperature":35.100195501758535,"pressure":1124.206100210219,"voltage":12.199656605690677,"current":1.2122135465187256}
+[2024-09-01T01:18:53.321Z] Published sensor data:
+[2024-09-01T01:18:53.332Z] Received on sensor/data: {"temperature":31.158889725304498,"pressure":917.0811083664207,"voltage":12.104605876727032,"current":3.0758523785725056}
+[2024-09-01T01:19:03.321Z] Published sensor data:
+[2024-09-01T01:19:03.330Z] Received on sensor/data: {"temperature":8.649366345417949,"pressure":1039.3457707941066,"voltage":11.682778848272925,"current":5.449449466216143}
+[2024-09-01T01:19:13.336Z] Published sensor data:
+[2024-09-01T01:19:13.349Z] Received on sensor/data: {"temperature":11.346898516710569,"pressure":1139.310134142626,"voltage":11.074348306084888,"current":2.050019451365488}
+[2024-09-01T01:19:23.333Z] Published sensor data:
+[2024-09-01T01:19:23.340Z] Received on sensor/data: {"temperature":8.537428826311686,"pressure":1173.5411811721735,"voltage":11.27381882233688,"current":6.5315489512774905}
+[2024-09-01T01:19:33.333Z] Published sensor data:
+[2024-09-01T01:19:33.336Z] Received on sensor/data: {"temperature":14.632613721647964,"pressure":1101.5354320552294,"voltage":12.298580520953035,"current":8.767988715371231}
+[2024-09-01T01:19:43.334Z] Published sensor data:
+[2024-09-01T01:19:43.340Z] Received on sensor/data: {"temperature":33.846482672935366,"pressure":1136.9353534822546,"voltage":12.071684297094697,"current":4.9890065355795965}
+[2024-09-01T01:19:53.335Z] Published sensor data:
+[2024-09-01T01:19:53.340Z] Received on sensor/data: {"temperature":13.003040637674934,"pressure":1087.608682393477,"voltage":11.272756994601501,"current":3.2100711609848775}
+[2024-09-01T01:20:03.336Z] Published sensor data:
+[2024-09-01T01:20:03.341Z] Received on sensor/data: {"temperature":59.84090964022074,"pressure":1025.3761689517455,"voltage":11.593769182155075,"current":1.93445473064229}
+[2024-09-01T01:20:13.338Z] Published sensor data:
+[2024-09-01T01:20:13.343Z] Received on sensor/data: {"temperature":50.03696545021563,"pressure":992.9624921822083,"voltage":12.200975058147517,"current":3.4507797469967483}
+[2024-09-01T01:20:23.340Z] Published sensor data:
+[2024-09-01T01:20:23.343Z] Received on sensor/data: {"temperature":53.93800385644166,"pressure":1142.587761480896,"voltage":11.718295455696957,"current":4.011755972896878}
+[2024-09-01T01:20:33.341Z] Published sensor data:
+[2024-09-01T01:20:33.346Z] Received on sensor/data: {"temperature":22.960737601662995,"pressure":1027.9169205651706,"voltage":11.962779928184847,"current":9.97901584024486}
+[2024-09-01T01:20:43.341Z] Published sensor data:
+[2024-09-01T01:20:43.345Z] Received on sensor/data: {"temperature":44.37329003675838,"pressure":1094.1967938347057,"voltage":12.475788756158357,"current":8.281298328231518}
+[2024-09-01T01:20:53.341Z] Published sensor data:
+[2024-09-01T01:20:53.346Z] Received on sensor/data: {"temperature":28.611026910197292,"pressure":1032.8476947821462,"voltage":12.203152743583477,"current":5.37045026867591}
+[2024-09-01T01:21:03.343Z] Published sensor data:
+[2024-09-01T01:21:03.353Z] Received on sensor/data: {"temperature":48.4401536622058,"pressure":912.6462681455957,"voltage":11.925642734168079,"current":0.8752101721779981}
+[2024-09-01T01:21:13.345Z] Published sensor data:
+[2024-09-01T01:21:13.356Z] Received on sensor/data: {"temperature":28.344371280005834,"pressure":1176.771053888417,"voltage":12.335315296924787,"current":5.736640231097924}
+[2024-09-01T01:21:23.347Z] Published sensor data:
+[2024-09-01T01:21:23.351Z] Received on sensor/data: {"temperature":51.284794894603976,"pressure":1154.5862893406456,"voltage":11.779656567173715,"current":1.2449482266359668}
+[2024-09-01T01:21:33.346Z] Published sensor data:
+[2024-09-01T01:21:33.350Z] Received on sensor/data: {"temperature":10.335396877931574,"pressure":1134.1064126427757,"voltage":12.199919118439698,"current":4.3467633626074225}
+[2024-09-01T01:21:43.348Z] Published sensor data:
+[2024-09-01T01:21:43.352Z] Received on sensor/data: {"temperature":37.228537381371424,"pressure":900.6559601699105,"voltage":12.131515146864293,"current":0.47692513861180563}
+[2024-09-01T01:21:53.349Z] Published sensor data:
+[2024-09-01T01:21:53.357Z] Received on sensor/data: {"temperature":31.582021024862023,"pressure":1132.1018347754439,"voltage":11.921137296012652,"current":7.9478008314056385}
+[2024-09-01T01:22:03.350Z] Published sensor data:
+[2024-09-01T01:22:03.354Z] Received on sensor/data: {"temperature":53.91105819750628,"pressure":1148.96793319087,"voltage":11.511893220615756,"current":8.889477703441917}
+[2024-09-01T01:22:13.351Z] Published sensor data:
+[2024-09-01T01:22:13.356Z] Received on sensor/data: {"temperature":51.08546210782317,"pressure":902.0524337179626,"voltage":11.878333546071982,"current":1.3734289059255822}
+[2024-09-01T01:22:23.353Z] Published sensor data:
+[2024-09-01T01:22:23.362Z] Received on sensor/data: {"temperature":47.38118467639799,"pressure":1155.144640778386,"voltage":11.154882733648806,"current":1.2116168291650897}
+[2024-09-01T01:22:33.354Z] Published sensor data:
+[2024-09-01T01:22:33.361Z] Received on sensor/data: {"temperature":5.349475268089398,"pressure":1033.2050955470725,"voltage":12.194205951715741,"current":4.76453753006788}
+[2024-09-01T01:22:43.356Z] Published sensor data:
+[2024-09-01T01:22:43.376Z] Received on sensor/data: {"temperature":22.394639100724095,"pressure":1166.618613882913,"voltage":11.219145879668485,"current":7.007625650155031}
+[2024-09-01T01:22:53.359Z] Published sensor data:
+[2024-09-01T01:22:53.374Z] Received on sensor/data: {"temperature":33.685516023113586,"pressure":1011.7290048457462,"voltage":12.054523243455243,"current":7.349545138618854}
+[2024-09-01T01:23:03.358Z] Published sensor data:
+[2024-09-01T01:23:03.364Z] Received on sensor/data: {"temperature":54.55233873855065,"pressure":1021.6561045475255,"voltage":11.875409736351413,"current":5.116260574696396}
+[2024-09-01T01:23:13.360Z] Published sensor data:
+[2024-09-01T01:23:13.388Z] Received on sensor/data: {"temperature":49.80455193186562,"pressure":957.3975343068411,"voltage":11.461634400339046,"current":8.84691430387986}
+[2024-09-01T01:23:23.361Z] Published sensor data:
+[2024-09-01T01:23:23.368Z] Received on sensor/data: {"temperature":49.757657865314776,"pressure":980.1119135394829,"voltage":12.423120630158651,"current":4.53783960355997}
+[2024-09-01T01:23:33.363Z] Published sensor data:
+[2024-09-01T01:23:33.366Z] Received on sensor/data: {"temperature":31.25076822434201,"pressure":1029.249300105591,"voltage":11.965583030613208,"current":1.5714047976184298}
+[2024-09-01T01:23:43.367Z] Published sensor data:
+[2024-09-01T01:23:43.378Z] Received on sensor/data: {"temperature":15.276063090582113,"pressure":1002.4373286209336,"voltage":11.600895664322445,"current":4.485525205673251}
+[2024-09-01T01:23:53.367Z] Published sensor data:
+[2024-09-01T01:23:53.377Z] Received on sensor/data: {"temperature":46.8188811764835,"pressure":913.6787200160974,"voltage":11.409262815130333,"current":7.178218335463007}
+[2024-09-01T01:24:03.368Z] Published sensor data:
+[2024-09-01T01:24:03.380Z] Received on sensor/data: {"temperature":7.669817765961897,"pressure":1042.698088626043,"voltage":12.051331480105494,"current":0.7934962165317061}
+[2024-09-01T01:24:13.368Z] Published sensor data:
+[2024-09-01T01:24:13.372Z] Received on sensor/data: {"temperature":55.222403642104645,"pressure":1087.478341498514,"voltage":12.155030137227023,"current":9.738513993019334}
+[2024-09-01T01:24:23.369Z] Published sensor data:
+[2024-09-01T01:24:23.375Z] Received on sensor/data: {"temperature":49.633742854956026,"pressure":1070.4127426636717,"voltage":11.72109904543412,"current":3.3887919631305397}
+[2024-09-01T01:24:33.371Z] Published sensor data:
+[2024-09-01T01:24:33.374Z] Received on sensor/data: {"temperature":50.757194582487074,"pressure":974.8760369426084,"voltage":11.80040360487743,"current":7.324066218017878}
+[2024-09-01T01:24:43.373Z] Published sensor data:
+[2024-09-01T01:24:43.377Z] Received on sensor/data: {"temperature":12.20095741139319,"pressure":1187.845138370668,"voltage":12.334193745342603,"current":3.7031630094575307}
+[2024-09-01T01:24:53.374Z] Published sensor data:
+[2024-09-01T01:24:53.379Z] Received on sensor/data: {"temperature":20.215504654736232,"pressure":968.9928222567016,"voltage":11.852514212515436,"current":5.235481407836724}
+[2024-09-01T01:25:03.375Z] Published sensor data:
+[2024-09-01T01:25:03.383Z] Received on sensor/data: {"temperature":13.046695679848511,"pressure":975.4960615824973,"voltage":11.137881359013809,"current":3.2268739002747426}
+[2024-09-01T01:25:13.376Z] Published sensor data:
+[2024-09-01T01:25:13.380Z] Received on sensor/data: {"temperature":55.539334705189944,"pressure":962.0262820217007,"voltage":11.293734776278361,"current":7.076459768666494}
+[2024-09-01T01:25:23.377Z] Published sensor data:
+[2024-09-01T01:25:23.387Z] Received on sensor/data: {"temperature":31.28290825287074,"pressure":1197.1790384847836,"voltage":11.561864288628797,"current":4.014781437379997}
+[2024-09-01T01:25:33.378Z] Published sensor data:
+[2024-09-01T01:25:33.380Z] Received on sensor/data: {"temperature":24.859366031132993,"pressure":1051.377358406191,"voltage":11.718665299865597,"current":5.900315551664848}
+[2024-09-01T01:25:43.381Z] Published sensor data:
+[2024-09-01T01:25:43.394Z] Received on sensor/data: {"temperature":52.16696400988629,"pressure":944.9077397811282,"voltage":11.360877409792343,"current":2.403843581216658}
+[2024-09-01T01:25:53.382Z] Published sensor data:
+[2024-09-01T01:25:53.392Z] Received on sensor/data: {"temperature":41.28442422215189,"pressure":923.5870422733708,"voltage":12.365246415438158,"current":4.650386023214854}
+[2024-09-01T01:26:03.383Z] Published sensor data:
+[2024-09-01T01:26:03.389Z] Received on sensor/data: {"temperature":24.669046095895578,"pressure":1003.1657500939406,"voltage":11.675556619286542,"current":2.2175956681584497}
+[2024-09-01T01:26:13.384Z] Published sensor data:
+[2024-09-01T01:26:13.394Z] Received on sensor/data: {"temperature":8.694078266186867,"pressure":954.2910944149306,"voltage":11.168510163893814,"current":5.203280111935442}
+[2024-09-01T01:26:23.385Z] Published sensor data:
+[2024-09-01T01:26:23.389Z] Received on sensor/data: {"temperature":48.777222354655066,"pressure":998.943833252541,"voltage":11.503475092062132,"current":7.20798220961214}
+[2024-09-01T01:26:33.385Z] Published sensor data:
+[2024-09-01T01:26:33.388Z] Received on sensor/data: {"temperature":40.97715090799305,"pressure":1112.729382485304,"voltage":11.141266055589993,"current":9.229731866450736}
+[2024-09-01T01:26:43.386Z] Published sensor data:
+[2024-09-01T01:26:43.389Z] Received on sensor/data: {"temperature":56.2426740847104,"pressure":989.5214548283507,"voltage":11.92786930273839,"current":4.945804684607715}
+[2024-09-01T01:26:53.388Z] Published sensor data:
+[2024-09-01T01:26:53.399Z] Received on sensor/data: {"temperature":28.159770354412682,"pressure":1127.1879612308878,"voltage":11.63293530471671,"current":9.766265563026655}
+[2024-09-01T01:27:03.386Z] Published sensor data:
+[2024-09-01T01:27:03.391Z] Received on sensor/data: {"temperature":17.33737143157611,"pressure":940.1548104131809,"voltage":12.052365003649523,"current":2.819462837444311}
+[2024-09-01T01:27:13.388Z] Published sensor data:
+[2024-09-01T01:27:13.393Z] Received on sensor/data: {"temperature":48.11625313492719,"pressure":1198.8725959619387,"voltage":11.484663795493784,"current":9.565666138062474}
+[2024-09-01T01:27:23.392Z] Published sensor data:
+[2024-09-01T01:27:23.406Z] Received on sensor/data: {"temperature":59.61185026090832,"pressure":959.7450334815942,"voltage":12.218460681307356,"current":6.6341463702912336}
+[2024-09-01T01:27:33.390Z] Published sensor data:
+[2024-09-01T01:27:33.393Z] Received on sensor/data: {"temperature":45.71382727524598,"pressure":934.5389855809337,"voltage":11.864188152404322,"current":7.367381611400237}
+[2024-09-01T01:27:43.393Z] Published sensor data:
+[2024-09-01T01:27:43.399Z] Received on sensor/data: {"temperature":39.54219469432455,"pressure":1061.725565934785,"voltage":11.364887907520064,"current":1.2710470930137774}
+[2024-09-01T01:27:53.393Z] Published sensor data:
+[2024-09-01T01:27:53.401Z] Received on sensor/data: {"temperature":38.51975895169493,"pressure":988.9667975808854,"voltage":11.796652253787673,"current":0.12820936428503904}
+[2024-09-01T01:28:03.393Z] Published sensor data:
+[2024-09-01T01:28:03.397Z] Received on sensor/data: {"temperature":8.420482866174012,"pressure":1185.3564261181655,"voltage":12.451645680587507,"current":5.49058381790508}
+[2024-09-01T01:28:13.394Z] Published sensor data:
+[2024-09-01T01:28:13.397Z] Received on sensor/data: {"temperature":58.399093544770615,"pressure":997.9973729157487,"voltage":11.198409892718619,"current":4.028712610631285}
+[2024-09-01T01:28:23.396Z] Published sensor data:
+[2024-09-01T01:28:23.406Z] Received on sensor/data: {"temperature":44.33364295651938,"pressure":1121.8257818586987,"voltage":11.343819354394324,"current":4.875993706303539}
+[2024-09-01T01:28:33.396Z] Published sensor data:
+[2024-09-01T01:28:33.402Z] Received on sensor/data: {"temperature":28.22838832195393,"pressure":1073.0462377060694,"voltage":11.505520522091679,"current":6.629696396776296}
+[2024-09-01T01:28:43.399Z] Published sensor data:
+[2024-09-01T01:28:43.432Z] Received on sensor/data: {"temperature":51.45084840653981,"pressure":1135.4003807514412,"voltage":11.873625968083486,"current":5.382389817616162}
+[2024-09-01T01:28:53.401Z] Published sensor data:
+[2024-09-01T01:28:53.405Z] Received on sensor/data: {"temperature":40.441231079400794,"pressure":901.6976299193748,"voltage":11.732023987045334,"current":3.953663225597881}
+[2024-09-01T01:29:03.404Z] Published sensor data:
+[2024-09-01T01:29:03.410Z] Received on sensor/data: {"temperature":29.833587746579294,"pressure":1041.9899023427251,"voltage":11.18156661017607,"current":7.921936126002596}
+[2024-09-01T01:29:13.406Z] Published sensor data:
+[2024-09-01T01:29:13.410Z] Received on sensor/data: {"temperature":47.45336935445466,"pressure":1176.5877445206522,"voltage":12.00442907419447,"current":0.4149357134678944}
+[2024-09-01T01:29:23.413Z] Published sensor data:
+[2024-09-01T01:29:23.441Z] Received on sensor/data: {"temperature":30.072824456241797,"pressure":1047.773695021039,"voltage":11.813556820467026,"current":6.232748531328238}
+[2024-09-01T01:29:33.413Z] Published sensor data:
+[2024-09-01T01:29:33.416Z] Received on sensor/data: {"temperature":52.86061391073782,"pressure":935.6066240683164,"voltage":11.322871619651456,"current":6.453772244558349}
+[2024-09-01T01:29:43.416Z] Published sensor data:
+[2024-09-01T01:29:43.426Z] Received on sensor/data: {"temperature":22.985137295136052,"pressure":991.5117402450592,"voltage":12.392288912260744,"current":0.5619462482644755}
+[2024-09-01T01:29:53.417Z] Published sensor data:
+[2024-09-01T01:29:53.427Z] Received on sensor/data: {"temperature":14.109719790607079,"pressure":1129.4269647116657,"voltage":11.871829776153806,"current":2.72222646856894}
+[2024-09-01T01:30:03.417Z] Published sensor data:
+[2024-09-01T01:30:03.421Z] Received on sensor/data: {"temperature":47.4500846263843,"pressure":1092.6555684205205,"voltage":11.116519888444696,"current":0.7244928415598029}
+[2024-09-01T01:30:13.417Z] Published sensor data:
+[2024-09-01T01:30:13.421Z] Received on sensor/data: {"temperature":38.973017838857636,"pressure":909.6677726935319,"voltage":11.936104577563965,"current":9.734471852457826}
+[2024-09-01T01:30:23.420Z] Published sensor data:
+[2024-09-01T01:30:23.433Z] Received on sensor/data: {"temperature":11.934849642904423,"pressure":984.2873318020012,"voltage":11.180128837763595,"current":8.54894222479504}
+[2024-09-01T01:30:33.419Z] Published sensor data:
+[2024-09-01T01:30:33.422Z] Received on sensor/data: {"temperature":50.0260525604513,"pressure":1061.185616640473,"voltage":11.682557137029136,"current":2.116740698817392}
+[2024-09-01T01:30:43.421Z] Published sensor data:
+[2024-09-01T01:30:43.431Z] Received on sensor/data: {"temperature":24.35611250729959,"pressure":1146.6593292999949,"voltage":12.24023294899603,"current":3.4524039630329373}
+[2024-09-01T01:30:53.422Z] Published sensor data:
+[2024-09-01T01:30:53.428Z] Received on sensor/data: {"temperature":31.738270905832984,"pressure":1197.8230423564319,"voltage":11.330363344071161,"current":4.7919759010521945}
+[2024-09-01T01:31:03.422Z] Published sensor data:
+[2024-09-01T01:31:03.426Z] Received on sensor/data: {"temperature":8.351355983432605,"pressure":1071.381350845519,"voltage":11.980654817292892,"current":0.6101861362791761}
+[2024-09-01T01:31:13.424Z] Published sensor data:
+[2024-09-01T01:31:13.440Z] Received on sensor/data: {"temperature":18.542844368418447,"pressure":1172.603088994677,"voltage":11.906423801421774,"current":6.958791911753622}
+[2024-09-01T01:31:23.425Z] Published sensor data:
+[2024-09-01T01:31:23.429Z] Received on sensor/data: {"temperature":16.17383612880544,"pressure":953.0989290320134,"voltage":12.295626717846599,"current":7.610720631283714}
+[2024-09-01T01:31:33.424Z] Published sensor data:
+[2024-09-01T01:31:33.427Z] Received on sensor/data: {"temperature":33.36093288311116,"pressure":929.7355546912682,"voltage":12.009111438924734,"current":8.021958434182658}
+[2024-09-01T01:31:43.426Z] Published sensor data:
+[2024-09-01T01:31:43.434Z] Received on sensor/data: {"temperature":40.53056384483432,"pressure":1015.222264793664,"voltage":11.01896532163295,"current":2.9445614389147656}
+[2024-09-01T01:31:53.427Z] Published sensor data:
+[2024-09-01T01:31:53.432Z] Received on sensor/data: {"temperature":28.856960946532986,"pressure":1119.9675187287703,"voltage":11.326111356094373,"current":0.41310849860976884}
+[2024-09-01T01:32:03.429Z] Published sensor data:
+[2024-09-01T01:32:03.444Z] Received on sensor/data: {"temperature":38.034217410497604,"pressure":1107.4038913022553,"voltage":11.261816863132513,"current":2.131746610397529}
+[2024-09-01T01:32:13.430Z] Published sensor data:
+[2024-09-01T01:32:13.451Z] Received on sensor/data: {"temperature":7.046667842726481,"pressure":1042.5520876455817,"voltage":11.262472098400162,"current":4.179874949304501}
+[2024-09-01T01:32:23.431Z] Published sensor data:
+[2024-09-01T01:32:23.437Z] Received on sensor/data: {"temperature":23.969350668077105,"pressure":947.9932704582192,"voltage":11.189667996635709,"current":0.034589806023663794}
+[2024-09-01T01:32:33.431Z] Published sensor data:
+[2024-09-01T01:32:33.434Z] Received on sensor/data: {"temperature":41.36485214801516,"pressure":1029.5157472338085,"voltage":11.457744635070574,"current":6.207260780465285}
+[2024-09-01T01:32:43.433Z] Published sensor data:
+[2024-09-01T01:32:43.446Z] Received on sensor/data: {"temperature":49.197834287205225,"pressure":960.5253116664402,"voltage":11.60671113728664,"current":5.732519360879027}
+[2024-09-01T01:32:53.435Z] Published sensor data:
+[2024-09-01T01:32:53.444Z] Received on sensor/data: {"temperature":29.872888196585773,"pressure":1066.4143478989247,"voltage":11.870593030954248,"current":9.581736738587608}
+[2024-09-01T01:33:03.436Z] Published sensor data:
+[2024-09-01T01:33:03.448Z] Received on sensor/data: {"temperature":15.620913784067932,"pressure":925.3862077671023,"voltage":11.801603854656422,"current":5.171600696703276}
+[2024-09-01T01:33:13.437Z] Published sensor data:
+[2024-09-01T01:33:13.444Z] Received on sensor/data: {"temperature":50.39217985983139,"pressure":1073.7016711995345,"voltage":11.319441874962507,"current":0.9701820948142803}
+[2024-09-01T01:33:23.438Z] Published sensor data:
+[2024-09-01T01:33:23.446Z] Received on sensor/data: {"temperature":35.82547958177463,"pressure":931.6770869309526,"voltage":11.275495540915497,"current":0.5235722353279515}
+[2024-09-01T01:33:33.438Z] Published sensor data:
+[2024-09-01T01:33:33.442Z] Received on sensor/data: {"temperature":56.52155330039684,"pressure":1173.973883788798,"voltage":11.409046041634037,"current":0.4207428114167855}
+[2024-09-01T01:33:43.440Z] Published sensor data:
+[2024-09-01T01:33:43.456Z] Received on sensor/data: {"temperature":16.341422985448798,"pressure":1090.365050243381,"voltage":11.046305042711655,"current":2.916499298284736}
+[2024-09-01T01:33:53.441Z] Published sensor data:
+[2024-09-01T01:33:53.454Z] Received on sensor/data: {"temperature":10.253183640607077,"pressure":976.8132117581265,"voltage":12.186978443122847,"current":8.44041386176557}
+[2024-09-01T01:34:03.442Z] Published sensor data:
+[2024-09-01T01:34:03.448Z] Received on sensor/data: {"temperature":38.358160805542475,"pressure":992.8935902299858,"voltage":11.148782456335686,"current":6.581914417322238}
+[2024-09-01T01:34:13.445Z] Published sensor data:
+[2024-09-01T01:34:13.459Z] Received on sensor/data: {"temperature":40.6850111418629,"pressure":1144.047720472061,"voltage":11.295548546241058,"current":1.7656526668485895}
+[2024-09-01T01:34:23.444Z] Published sensor data:
+[2024-09-01T01:34:23.449Z] Received on sensor/data: {"temperature":10.258866137535902,"pressure":923.9263104005433,"voltage":11.590782179098282,"current":5.533150421094259}
+[2024-09-01T01:34:33.444Z] Published sensor data:
+[2024-09-01T01:34:33.447Z] Received on sensor/data: {"temperature":30.480002088418622,"pressure":1130.1293223223167,"voltage":12.099471277579468,"current":0.04706322652902939}
+[2024-09-01T01:34:43.448Z] Published sensor data:
+[2024-09-01T01:34:43.459Z] Received on sensor/data: {"temperature":48.94852523545467,"pressure":974.5296458900634,"voltage":12.427028358413422,"current":8.290199153856141}
+[2024-09-01T01:34:53.448Z] Published sensor data:
+[2024-09-01T01:34:53.452Z] Received on sensor/data: {"temperature":33.92274732930596,"pressure":1031.3949871894185,"voltage":11.176272971964602,"current":6.649154146380532}
+[2024-09-01T01:35:03.451Z] Published sensor data:
+[2024-09-01T01:35:03.456Z] Received on sensor/data: {"temperature":46.349458693576075,"pressure":1118.3732561903862,"voltage":11.15248078864657,"current":4.817894525103624}
+[2024-09-01T01:35:13.451Z] Published sensor data:
+[2024-09-01T01:35:13.471Z] Received on sensor/data: {"temperature":24.66513486441871,"pressure":968.4861339656981,"voltage":11.18618133541646,"current":3.0183701633773374}
+[2024-09-01T01:35:23.451Z] Published sensor data:
+[2024-09-01T01:35:23.454Z] Received on sensor/data: {"temperature":21.317484434273627,"pressure":1028.2244475369782,"voltage":11.459612323605718,"current":6.799164475321113}
+[2024-09-01T01:35:33.451Z] Published sensor data:
+[2024-09-01T01:35:33.453Z] Received on sensor/data: {"temperature":10.773047071252353,"pressure":1123.173703247795,"voltage":11.862678957499146,"current":8.346067438673137}
+[2024-09-01T01:35:43.452Z] Published sensor data:
+[2024-09-01T01:35:43.457Z] Received on sensor/data: {"temperature":47.23789905771564,"pressure":1179.7266482623822,"voltage":11.720057663127031,"current":7.2361817091538105}
+[2024-09-01T01:35:53.453Z] Published sensor data:
+[2024-09-01T01:35:53.460Z] Received on sensor/data: {"temperature":43.359866660238076,"pressure":1197.995136767635,"voltage":11.929160443834181,"current":9.594485262787142}
+[2024-09-01T01:36:03.454Z] Published sensor data:
+[2024-09-01T01:36:03.459Z] Received on sensor/data: {"temperature":10.832438957249904,"pressure":1028.303379348606,"voltage":12.330939218508284,"current":9.71543367454656}
+[2024-09-01T01:36:13.456Z] Published sensor data:
+[2024-09-01T01:36:13.461Z] Received on sensor/data: {"temperature":9.16131280550642,"pressure":1075.7729348853188,"voltage":11.50190922457295,"current":9.175552328562674}
+[2024-09-01T01:36:23.456Z] Published sensor data:
+[2024-09-01T01:36:23.460Z] Received on sensor/data: {"temperature":36.76874870968504,"pressure":1154.3342337288207,"voltage":11.902362492521112,"current":5.784109640415302}
+[2024-09-01T01:36:33.456Z] Published sensor data:
+[2024-09-01T01:36:33.458Z] Received on sensor/data: {"temperature":43.76645088719106,"pressure":1149.6415242638786,"voltage":11.912389155539328,"current":5.523450094473992}
+[2024-09-01T01:36:43.459Z] Published sensor data:
+[2024-09-01T01:36:43.469Z] Received on sensor/data: {"temperature":36.892177231895516,"pressure":923.0387464277247,"voltage":12.03347108679773,"current":8.213813833712273}
+[2024-09-01T01:36:53.460Z] Published sensor data:
+[2024-09-01T01:36:53.463Z] Received on sensor/data: {"temperature":57.952733263637256,"pressure":1131.960042073597,"voltage":11.291399838077906,"current":1.1794816445517298}
+[2024-09-01T01:37:03.459Z] Published sensor data:
+[2024-09-01T01:37:03.463Z] Received on sensor/data: {"temperature":26.441320346224224,"pressure":1084.5406965146076,"voltage":11.654451233113296,"current":5.502040973273905}
+[2024-09-01T01:37:13.460Z] Published sensor data:
+[2024-09-01T01:37:13.464Z] Received on sensor/data: {"temperature":14.373173491905444,"pressure":1022.6809791930461,"voltage":11.515217676522521,"current":5.715459198962614}
+[2024-09-01T01:37:23.470Z] Published sensor data:
+[2024-09-01T01:37:23.478Z] Received on sensor/data: {"temperature":12.557440345046684,"pressure":1107.004380484476,"voltage":12.114448221678655,"current":9.400081626125196}
+[2024-09-01T01:37:33.470Z] Published sensor data:
+[2024-09-01T01:37:33.472Z] Received on sensor/data: {"temperature":34.400239301344115,"pressure":904.0872030431244,"voltage":12.442420749133472,"current":9.310290939303673}
+[2024-09-01T01:37:43.470Z] Published sensor data:
+[2024-09-01T01:37:43.478Z] Received on sensor/data: {"temperature":41.5613583701704,"pressure":969.1798388185512,"voltage":12.276543429800762,"current":5.889822785145771}
+[2024-09-01T01:37:53.472Z] Published sensor data:
+[2024-09-01T01:37:53.484Z] Received on sensor/data: {"temperature":7.118633414023306,"pressure":1088.7689796355849,"voltage":11.560308629235912,"current":0.9853981786897537}
+[2024-09-01T01:38:03.472Z] Published sensor data:
+[2024-09-01T01:38:03.476Z] Received on sensor/data: {"temperature":47.679486579029,"pressure":1198.3097837860203,"voltage":11.584323947012434,"current":2.141601647676419}
+[2024-09-01T01:38:13.472Z] Published sensor data:
+[2024-09-01T01:38:13.479Z] Received on sensor/data: {"temperature":43.19087554521375,"pressure":967.1631840416088,"voltage":11.137627755063507,"current":0.5075818977766455}
+[2024-09-01T01:38:23.473Z] Published sensor data:
+[2024-09-01T01:38:23.476Z] Received on sensor/data: {"temperature":13.811329108454633,"pressure":1198.5222049872523,"voltage":11.573831387551039,"current":7.598128755661251}
+[2024-09-01T01:38:33.473Z] Published sensor data:
+[2024-09-01T01:38:33.476Z] Received on sensor/data: {"temperature":30.369041068897136,"pressure":1157.385579385943,"voltage":12.031397005791408,"current":3.405622525823686}
+[2024-09-01T01:38:43.477Z] Published sensor data:
+[2024-09-01T01:38:43.488Z] Received on sensor/data: {"temperature":26.935662955727516,"pressure":1192.3656028170933,"voltage":11.497473739678467,"current":0.9210225663012506}
+[2024-09-01T01:38:53.477Z] Published sensor data:
+[2024-09-01T01:38:53.485Z] Received on sensor/data: {"temperature":44.55550897339063,"pressure":1188.3217459779669,"voltage":11.089012549127201,"current":7.233064473025205}
+[2024-09-01T01:39:03.476Z] Published sensor data:
+[2024-09-01T01:39:03.483Z] Received on sensor/data: {"temperature":44.77376261620106,"pressure":1189.2588960297644,"voltage":12.334049166420826,"current":8.149149147332631}
+[2024-09-01T01:39:13.477Z] Published sensor data:
+[2024-09-01T01:39:13.489Z] Received on sensor/data: {"temperature":6.493535226377805,"pressure":986.857996385464,"voltage":12.471362540457857,"current":9.986781248219533}
+[2024-09-01T01:39:23.477Z] Published sensor data:
+[2024-09-01T01:39:23.482Z] Received on sensor/data: {"temperature":46.88706190525348,"pressure":1084.7245441283535,"voltage":12.005415312543214,"current":7.901580317141166}
+[2024-09-01T01:39:33.478Z] Published sensor data:
+[2024-09-01T01:39:33.482Z] Received on sensor/data: {"temperature":41.722406585817666,"pressure":1056.5988026155974,"voltage":11.878277491770888,"current":5.8817845901618915}
+[2024-09-01T01:39:43.482Z] Published sensor data:
+[2024-09-01T01:39:43.486Z] Received on sensor/data: {"temperature":26.44004890727986,"pressure":1181.6405661008632,"voltage":11.049077917816355,"current":5.386132531996264}
+[2024-09-01T01:39:53.484Z] Published sensor data:
+[2024-09-01T01:39:53.492Z] Received on sensor/data: {"temperature":58.89113980490191,"pressure":920.727016396228,"voltage":11.306371725530136,"current":6.981564272937579}
+[2024-09-01T01:40:03.487Z] Published sensor data:
+[2024-09-01T01:40:03.493Z] Received on sensor/data: {"temperature":35.112494508320324,"pressure":1128.1495565737096,"voltage":11.584197850782859,"current":0.5232997816135576}
+[2024-09-01T01:40:13.488Z] Published sensor data:
+[2024-09-01T01:40:13.492Z] Received on sensor/data: {"temperature":41.39461373117842,"pressure":1024.5837738225973,"voltage":11.198808709238744,"current":4.928354274233861}
+[2024-09-01T01:40:23.492Z] Published sensor data:
+[2024-09-01T01:40:23.502Z] Received on sensor/data: {"temperature":42.63656219946841,"pressure":1115.5960107676603,"voltage":11.626281758450228,"current":8.106753912634488}
+[2024-09-01T01:40:33.492Z] Published sensor data:
+[2024-09-01T01:40:33.495Z] Received on sensor/data: {"temperature":15.88180573144795,"pressure":966.3067021028697,"voltage":11.9394726155277,"current":5.224619046832164}
+[2024-09-01T01:40:43.494Z] Published sensor data:
+[2024-09-01T01:40:43.499Z] Received on sensor/data: {"temperature":23.23657743630694,"pressure":948.8793601178237,"voltage":11.311215510796087,"current":7.49580101715029}
+[2024-09-01T01:40:53.495Z] Published sensor data:
+[2024-09-01T01:40:53.501Z] Received on sensor/data: {"temperature":31.745660062133876,"pressure":1059.837065822178,"voltage":12.191356679615668,"current":5.754187867601317}
+[2024-09-01T01:41:03.494Z] Published sensor data:
+[2024-09-01T01:41:13.543Z] Published sensor data:
+[2024-09-01T01:41:23.514Z] Published sensor data:
+[2024-09-01T01:41:33.515Z] Published sensor data:
+[2024-09-01T01:41:43.516Z] Published sensor data:
+[2024-09-01T01:41:53.517Z] Published sensor data:
+[2024-09-01T01:42:03.516Z] Published sensor data:
+[2024-09-01T01:42:13.517Z] Published sensor data:
+[2024-09-01T01:42:23.520Z] Published sensor data:
+[2024-09-01T01:42:33.519Z] Published sensor data:
+[2024-09-01T01:42:43.520Z] Published sensor data:
+[2024-09-01T01:42:53.521Z] Published sensor data:
+[2024-09-01T01:43:03.521Z] Published sensor data:
+[2024-09-01T01:43:13.521Z] Published sensor data:
+[2024-09-01T01:43:23.522Z] Published sensor data:
+[2024-09-01T01:43:33.523Z] Published sensor data:
+[2024-09-01T01:43:43.527Z] Published sensor data:
+[2024-09-01T01:43:53.528Z] Published sensor data:
+[2024-09-01T01:44:03.530Z] Published sensor data:
+[2024-09-01T01:44:13.530Z] Published sensor data:
+[2024-09-01T01:44:23.538Z] Published sensor data:
+[2024-09-01T01:44:33.533Z] Published sensor data:
+[2024-09-01T01:44:43.537Z] Published sensor data:
+[2024-09-01T01:44:53.537Z] Published sensor data:
+[2024-09-01T01:45:03.538Z] Published sensor data:
+[2024-09-01T01:45:13.539Z] Published sensor data:
+[2024-09-01T01:45:23.541Z] Published sensor data:
+[2024-09-01T01:45:33.540Z] Published sensor data:
+[2024-09-01T01:45:43.541Z] Published sensor data:
+[2024-09-01T01:45:53.542Z] Published sensor data:
+[2024-09-01T01:46:03.548Z] Published sensor data:
+[2024-09-01T01:46:13.548Z] Published sensor data:
+[2024-09-01T01:46:23.549Z] Published sensor data:
+[2024-09-01T01:46:33.550Z] Published sensor data:
+[2024-09-01T01:46:43.552Z] Published sensor data:
+[2024-09-01T01:46:53.552Z] Published sensor data:
+[2024-09-01T01:47:03.554Z] Published sensor data:
+[2024-09-01T01:47:13.555Z] Published sensor data:
+[2024-09-01T01:47:23.556Z] Published sensor data:
+[2024-09-01T01:47:33.556Z] Published sensor data:
+[2024-09-01T01:47:43.559Z] Published sensor data:
+[2024-09-01T01:47:53.559Z] Published sensor data:
+[2024-09-01T01:48:03.560Z] Published sensor data:
+[2024-09-01T01:48:13.561Z] Published sensor data:
+[2024-09-01T01:48:23.564Z] Published sensor data:
+[2024-09-01T01:48:33.563Z] Published sensor data:
+[2024-09-01T01:48:43.564Z] Published sensor data:
+[2024-09-01T01:48:53.566Z] Published sensor data:
+[2024-09-01T01:49:03.566Z] Published sensor data:
+[2024-09-01T01:49:13.567Z] Published sensor data:
+[2024-09-01T01:49:23.586Z] Published sensor data:
+[2024-09-01T01:49:33.580Z] Published sensor data:
+[2024-09-01T01:49:43.581Z] Published sensor data:
+[2024-09-01T01:49:53.582Z] Published sensor data:
+[2024-09-01T01:50:03.583Z] Published sensor data:
+[2024-09-01T01:50:13.584Z] Published sensor data:
+[2024-09-01T01:50:23.585Z] Published sensor data:
+[2024-09-01T01:50:33.596Z] Published sensor data:
+[2024-09-01T01:50:43.591Z] Published sensor data:
+[2024-09-01T01:50:53.591Z] Published sensor data:
+[2024-09-01T01:51:03.595Z] Published sensor data:
+[2024-09-01T01:51:13.594Z] Published sensor data:
+[2024-09-01T01:51:23.596Z] Published sensor data:
+[2024-09-01T01:51:33.596Z] Published sensor data:
+[2024-09-01T01:51:43.597Z] Published sensor data:
+[2024-09-01T01:51:53.599Z] Published sensor data:
+[2024-09-01T01:52:03.599Z] Published sensor data:
+[2024-09-01T01:52:13.600Z] Published sensor data:
+[2024-09-01T01:52:23.602Z] Published sensor data:
+[2024-09-01T01:52:33.603Z] Published sensor data:
+[2024-09-01T01:52:43.605Z] Published sensor data:
+[2024-09-01T01:52:53.616Z] Published sensor data:
+[2024-09-01T01:53:03.608Z] Published sensor data:
+[2024-09-01T01:53:13.610Z] Published sensor data:
+[2024-09-01T01:53:23.610Z] Published sensor data:
+[2024-09-01T01:53:33.611Z] Published sensor data:
+[2024-09-01T01:53:43.611Z] Published sensor data:
+[2024-09-01T01:53:53.614Z] Published sensor data:
+[2024-09-01T01:54:03.616Z] Published sensor data:
+[2024-09-01T01:54:13.620Z] Published sensor data:
+[2024-09-01T01:54:23.624Z] Published sensor data:
+[2024-09-01T01:54:33.623Z] Published sensor data:
+[2024-09-01T01:54:43.627Z] Published sensor data:
+[2024-09-01T01:54:53.628Z] Published sensor data:
+[2024-09-01T01:55:03.627Z] Published sensor data:
+[2024-09-01T01:55:13.629Z] Published sensor data:
+[2024-09-01T01:55:23.632Z] Published sensor data:
+[2024-09-01T01:55:33.631Z] Published sensor data:
+[2024-09-01T01:55:43.632Z] Published sensor data:
+[2024-09-01T01:55:53.636Z] Published sensor data:
+[2024-09-01T01:56:03.637Z] Published sensor data:
+[2024-09-01T01:56:13.638Z] Published sensor data:
+[2024-09-01T01:56:23.638Z] Published sensor data:
+[2024-09-01T01:56:33.638Z] Published sensor data:
+[2024-09-01T01:56:43.640Z] Published sensor data:
+[2024-09-01T01:56:53.642Z] Published sensor data:
+[2024-09-01T01:57:03.646Z] Published sensor data:

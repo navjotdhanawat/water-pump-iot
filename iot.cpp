@@ -3,7 +3,6 @@
 #include <DHT.h>
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
-#include <Adafruit_BMP280.h>
 #include <Preferences.h>
 #include <WebServer.h>
 
@@ -22,13 +21,17 @@
 WiFiClient espClient;
 PubSubClient client(espClient);
 DHT dht(DHTPIN, DHTTYPE);
-Adafruit_BMP280 bmp; // I2C address 0x76
 Preferences preferences;
 WebServer server(80);
 SoftwareSerial modemSerial(MODEM_RX, MODEM_TX);
 
 unsigned long delayTime = 10000; // Default delay time (10 seconds)
 bool use4G = false;              // Flag to indicate if 4G should be used
+
+const char *mqtt_server = "localhost"; // From options
+const int mqtt_port = 1883;            // From options
+const char *mqtt_username = "navjot";  // From options
+const char *mqtt_password = "navjot";  // From options
 
 // Function prototypes
 void setup_ap_mode();
@@ -64,12 +67,6 @@ void setup()
   client.setCallback(callback);
 
   dht.begin();
-  if (!bmp.begin())
-  {
-    Serial.println(F("Could not find a valid BMP280 sensor, check wiring!"));
-    while (1)
-      ;
-  }
 }
 
 void setup_ap_mode()
@@ -216,7 +213,7 @@ void reconnect()
   while (!client.connected())
   {
     Serial.print("Attempting MQTT connection...");
-    if (client.connect("ESP32Client"))
+    if (client.connect("ESP32Client", mqtt_username, mqtt_password))
     {
       Serial.println("connected");
       client.subscribe("water-pump/control");
@@ -242,29 +239,24 @@ void loop()
 
   // Read sensor data
   float temperature = dht.readTemperature();
-  float pressure = bmp.readPressure() / 100.0F;
   float voltage = analogRead(34) * (3.3 / 4095.0) * (10 + 1); // Example: Voltage divider for ADC pin 34
   float current = analogRead(35) * (5.0 / 4095.0);            // Example: Using ACS712 on ADC pin 35
 
   // Check if any reads failed and publish the data
-  if (isnan(temperature) || isnan(pressure) || isnan(voltage) || isnan(current))
+  if (isnan(temperature) || isnan(voltage) || isnan(current))
   {
     Serial.println("Failed to read from sensor(s)");
   }
   else
   {
     char payload[256];
-    snprintf(payload, sizeof(payload), "{\"temperature\": %.2f, \"pressure\": %.2f, \"voltage\": %.2f, \"current\": %.2f}", temperature, pressure, voltage, current);
+    snprintf(payload, sizeof(payload), "{\"temperature\": %.2f, \"voltage\": %.2f, \"current\": %.2f}", temperature, voltage, current);
     client.publish("sensor/data", payload);
 
     // Example: Check for abnormal conditions
     if (temperature > 60 || temperature < 5)
     {
       client.publish("alerts/temperature", "Temperature out of range!");
-    }
-    if (pressure > 1200 or pressure < 900)
-    {
-      client.publish("alerts/pressure", "Pressure out of range!");
     }
     if (voltage > 12.5 || voltage < 11.0)
     {

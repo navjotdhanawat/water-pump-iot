@@ -3,8 +3,14 @@ const readline = require("readline");
 const logger = require("./logger"); // Import the logger utility
 
 // MQTT server details
-const mqttServer = "mqtt://localhost:1883"; // Adjust if your server is running on a different IP or port
-const client = mqtt.connect(mqttServer);
+const options = {
+  host: "localhost",
+  port: 1883,
+  protocol: "mqtt",
+  username: "navjot",
+  password: "navjot",
+};
+const client = mqtt.connect(options);
 
 // Command-line interface for user input
 const rl = readline.createInterface({

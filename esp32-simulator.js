@@ -2,8 +2,14 @@ const mqtt = require("mqtt");
 const logger = require("./logger"); // Import the logger utility
 
 // MQTT server details
-const mqttServer = "mqtt://localhost:1883"; // Adjust if your server is running on a different IP or port
-const client = mqtt.connect(mqttServer);
+const options = {
+  host: "localhost",
+  port: 1883,
+  protocol: "mqtt",
+  username: "navjot",
+  password: "navjot",
+};
+const client = mqtt.connect(options);
 
 // Simulated sensor data
 function generateSensorData() {
@@ -27,30 +33,30 @@ client.on("connect", function () {
   });
 
   // Publish sensor data every 10 seconds
-  // setInterval(() => {
-  //   const data = generateSensorData();
-  //   const payload = JSON.stringify(data);
-  //   client.publish("sensor/data", payload);
-  //   logger.log("Published sensor data:", payload);
+  setInterval(() => {
+    const data = generateSensorData();
+    const payload = JSON.stringify(data);
+    client.publish("sensor/data", payload);
+    logger.log("Published sensor data:", payload);
 
-  //   // Check for abnormal conditions
-  //   if (data.temperature > 60 || data.temperature < 5) {
-  //     client.publish("alerts/temperature", "Temperature out of range!");
-  //     logger.log("Published alert: Temperature out of range!");
-  //   }
-  //   if (data.pressure > 1200 || data.pressure < 900) {
-  //     client.publish("alerts/pressure", "Pressure out of range!");
-  //     logger.log("Published alert: Pressure out of range!");
-  //   }
-  //   if (data.voltage > 12.5 || data.voltage < 11.0) {
-  //     client.publish("alerts/voltage", "Voltage out of range!");
-  //     logger.log("Published alert: Voltage out of range!");
-  //   }
-  //   if (data.current > 10.0) {
-  //     client.publish("alerts/current", "Current too high!");
-  //     logger.log("Published alert: Current too high!");
-  //   }
-  // }, 10000);
+    // Check for abnormal conditions
+    if (data.temperature > 60 || data.temperature < 5) {
+      client.publish("alerts/temperature", "Temperature out of range!");
+      logger.log("Published alert: Temperature out of range!");
+    }
+    if (data.pressure > 1200 || data.pressure < 900) {
+      client.publish("alerts/pressure", "Pressure out of range!");
+      logger.log("Published alert: Pressure out of range!");
+    }
+    if (data.voltage > 12.5 || data.voltage < 11.0) {
+      client.publish("alerts/voltage", "Voltage out of range!");
+      logger.log("Published alert: Voltage out of range!");
+    }
+    if (data.current > 10.0) {
+      client.publish("alerts/current", "Current too high!");
+      logger.log("Published alert: Current too high!");
+    }
+  }, 10000);
 });
 
 // Handle received messages

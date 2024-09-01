@@ -7,7 +7,9 @@
     "server": "node server.js",
     "iot": "node esp32-simulator.js",
     "mobile": "node mobile-app-mock.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker:build": "docker build -t custom-mosquitto ./mosquitto",
+    "docker:run": "docker run -d -p 1883:1883 --name mosquitto custom-mosquitto"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,6 @@
   "dependencies": {
     "aedes": "^0.51.2",
     "mosca": "^2.8.3",
-    "mqtt": "^5.9.1"
+    "mqtt": "^5.10.1"
   }
 }
